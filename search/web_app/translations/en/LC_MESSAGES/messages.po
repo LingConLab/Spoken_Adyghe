@@ -1,0 +1,1875 @@
+# English translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-09-20 17:03+0200\n"
+"PO-Revision-Date: 2017-09-20 17:03+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# ********  Please fill in the following strings:  ********
+
+msgid "corpus_title"
+msgstr "Spoken corpus of the dialects of Khakas"
+
+# Language names for the dropdown menu in search panel (please add all missing languages that you have in the corpus):
+
+msgid "langname_udmurt"
+msgstr "Udmurt"
+
+msgid "langname_khakas"
+msgstr "Khakas"
+
+msgid "langname_beserman"
+msgstr "Beserman"
+
+msgid "langname_komi"
+msgstr "Komi"
+
+msgid "langname_komi_zyrian"
+msgstr "Komi-Zyrian"
+
+msgid "langname_komi_permyak"
+msgstr "Komi-Permyak"
+
+msgid "langname_erzya"
+msgstr "Erzya"
+
+msgid "langname_moksha"
+msgstr "Moksha"
+
+msgid "langname_hill_mari"
+msgstr "Hill Mari"
+
+msgid "langname_meadow_mari"
+msgstr "Meadow Mari"
+
+msgid "langname_tatar"
+msgstr "Tatar"
+
+msgid "langname_bashkir"
+msgstr "Bashkir"
+
+msgid "langname_chuvash"
+msgstr "Chuvash"
+
+msgid "langname_nganasan"
+msgstr "Nganasan"
+
+msgid "langname_buryat"
+msgstr "Buryat"
+
+msgid "langname_kalmyk"
+msgstr "Kalmyk"
+
+msgid "langname_greek"
+msgstr "Greek"
+
+msgid "langname_tsakonian"
+msgstr "Tsakonian"
+
+msgid "langname_albanian"
+msgstr "Albanian"
+
+msgid "langname_acrhi"
+msgstr "Archi"
+
+msgid "langname_tsakhur"
+msgstr "Tsakhur"
+
+msgid "langname_dargwa"
+msgstr "Dargwa"
+
+msgid "langname_adyghe"
+msgstr "Adyghe"
+
+msgid "langname_romani"
+msgstr "Romani"
+
+msgid "langname_ossetic"
+msgstr "Ossetic"
+
+msgid "langname_ossetic_iron"
+msgstr "Iron Ossetic"
+
+msgid "langname_ossetic_digor"
+msgstr "Digor Ossetic"
+
+msgid "langname_english"
+msgstr "English"
+
+msgid "langname_russian"
+msgstr "Russian"
+
+msgid "langname_german"
+msgstr "German"
+
+msgid "langname_french"
+msgstr "French"
+
+msgid "langname_armenian"
+msgstr "Armenian"
+
+msgid "langname_armenian_translit"
+msgstr "Armenian (translit.)"
+
+msgid "langname_belarusian"
+msgstr "Belarusian"
+
+msgid "langname_ukrainian"
+msgstr "Ukrainian"
+
+msgid "langname_latvian"
+msgstr "Latvian"
+
+msgid "langname_lithuanian"
+msgstr "Lithuanian"
+
+msgid "langname_estonian"
+msgstr "Estonian"
+
+msgid "langname_finnish"
+msgstr "Finnish"
+
+msgid "langname_italian"
+msgstr "Italian"
+
+msgid "langname_spanish"
+msgstr "Spanish"
+
+msgid "langname_bulgarian"
+msgstr "Bulgarian"
+
+msgid "langname_swedish"
+msgstr "Swedish"
+
+msgid "langname_polish"
+msgstr "Polish"
+
+msgid "langname_chinese"
+msgstr "Chinese"
+
+msgid "langname_selkup"
+msgstr "Selkup"
+
+msgid "langname_kamas"
+msgstr "Kamas"
+
+msgid "langname_comments"
+msgstr "comments"
+
+msgid "langname_positive"
+msgstr "positive"
+
+msgid "langname_negative"
+msgstr "negative"
+
+msgid "langname_all"
+msgstr "all"
+
+msgid "langname_undefined"
+msgstr "undefined"
+
+
+
+# Transliteration names for the dropdown menu in search panel (please add all missing languages that you have in the corpus):
+
+msgid "translitname_original"
+msgstr "original"
+
+msgid "translitname_cyrillic"
+msgstr "cyrillic"
+
+msgid "translitname_latin"
+msgstr "latin"
+
+msgid "translitname_IPA"
+msgstr "IPA"
+
+msgid "translitname_UPA"
+msgstr "UPA"
+
+msgid "translitname_corpus"
+msgstr "corpus"
+
+msgid "translitname_dictionary"
+msgstr "dictionary"
+
+
+
+# Names of input methods that define how string queries (for word, lemma etc.) will be transformed before the query is performed:
+
+msgid "inputmethod_normal"
+msgstr "normal"
+
+msgid "inputmethod_strict"
+msgstr "strict"
+
+
+# English version of the start page
+
+msgid "Главная"
+msgstr "Home"
+
+msgid "Транслитерация"
+msgstr "Transliteration"
+
+msgid "Как пользоваться корпусом"
+msgstr "Instruction"
+
+msgid "Поиск"
+msgstr "Search"
+
+msgid "Состав корпуса"
+msgstr "Corpus Composition"
+
+msgid "Создатели"
+msgstr "Project participants"
+
+msgid "Устный корпус диалектов"
+msgstr "Spoken corpus of the dialects"
+
+msgid "хакасского языка"
+msgstr "of Khakas"
+
+msgid "К поиску"
+msgstr "Search"
+
+msgid "Контакты"
+msgstr "Contacts"
+
+msgid "По содержательным вопросам:"
+msgstr "You may contact us with questions about the Corpus:"
+
+msgid "По техническим вопросам:"
+msgstr "Or with questions about the search platform:"
+
+msgid "Елена Олеговна Сокур"
+msgstr "Elena Sokur"
+
+msgid "Как процитировать корпус"
+msgstr "How to cite the corpus"
+
+msgid "Описание."
+msgstr "Description."
+
+msgid "Вера Сергеевна Мальцева"
+msgstr "Vera Maltseva"
+
+msgid "Если Вы используете данные Корпуса в своём исследовании, воспользуйтесь следующей ссылкой:"
+msgstr "If you use data from the Spoken corpus of the dialects of Khakas in your research, please cite as follows:"
+
+msgid "Вера Мальцева, Елена Сокур. Устный корпус диалектов хакасского языка. М.: ИЯз РАН; М.: Международная лаборатория языковой конвергенции, НИУ ВШЭ. (Доступно онлайн по адресу: https://linghub.ru/oral_khakas_corpus/, дата обращения"
+msgstr "Vera Maltseva, Elena Sokur. Spoken corpus of the dialects of Khakas. Moscow: Institute of Linguistics; Moscow: Linguistic Convergence Laboratory, NRU HSE. (Available online at https://linghub.ru/oral_khakas_corpus/, accessed on"
+
+
+
+
+# Names and values of the metadata fields you have in the corpus:
+
+msgid "m"
+msgstr "m"
+
+msgid "f"
+msgstr "f"
+
+msgid "хакасский"
+msgstr "Khakas"
+
+msgid "русский"
+msgstr "Russian"
+
+msgid "бельтырский"
+msgstr "Beltyr"
+
+msgid "сагайский (аскизский говор)"
+msgstr "Sagaj (Askiz idiom)"
+
+msgid "Московская область"
+msgstr "Moscow district"
+
+msgid "Анчыл Чол (Аскизский р-н)"
+msgstr "Anchyl Chol (Askiz district)"
+
+msgid "Чиланы"
+msgstr "Chylany"
+
+msgid "Чиланы (Таштыпский р-н)"
+msgstr "Chylany (Tashtyp district)"
+
+msgid "Абакан"
+msgstr "Abakan"
+
+msgid "Казановка (Аскизский р-н)"
+msgstr "Kazanovka (Askiz district)"
+
+msgid "Москва"
+msgstr "Moscow"
+
+msgid "Верх-Аскиз (Аскизский р-н)"
+msgstr "Verkh-Askiz (Askiz district)"
+
+msgid "Бутрахты"
+msgstr "Butrahty"
+
+msgid "Карагай"
+msgstr "Karagaj"
+
+msgid "Бутрахты (Таштыпский р-н)"
+msgstr "Butrahty (Tashtyp district)"
+
+msgid "Карагай (Таштыпский р-н)"
+msgstr "Karagaj (Tashtyp district)"
+
+msgid "Baj (Аскизский р-н)"
+msgstr "Baj (Askiz district)"
+
+msgid "Тульская область"
+msgstr "Tula district"
+
+msgid "Russia"
+msgstr "Russia"
+
+msgid "Бай (Аскизский р-н)"
+msgstr "Baj (Askiz district)"
+
+msgid "Сталино (Аскизский р-н)"
+msgstr "Stalino (Askiz district)"
+
+msgid "Чапаево (Аскизский р-н)"
+msgstr "Chapaevo (Askiz district)"
+
+msgid "Тарбаган"
+msgstr "Tarbagan"
+
+msgid "Тарбаган (Таштыпский р-н)"
+msgstr "Tarbagan (Tashtyp district)"
+
+msgid "Нижние Сиры"
+msgstr "Nizhnije Siry"
+
+msgid "Нижние Сиры (Таштыпский р-н)"
+msgstr "Nizhnije Siry (Tashtyp district)"
+
+msgid "высшее (педагогическое)"
+msgstr "higher (pedagogical)"
+
+msgid "высшее (филологическое)"
+msgstr "higher (philological)"
+
+msgid "неполное высшее (филология)"
+msgstr "incomplete higher (philology)"
+
+msgid "д.ф.н."
+msgstr "PhD"
+
+msgid "среднее"
+msgstr "secondary"
+
+msgid "начальное"
+msgstr "elementary"
+
+msgid "к.ф.н. (лингвистика)"
+msgstr "PhD (linguistics)"
+
+msgid "домохозяйка"
+msgstr "housewife"
+
+msgid "аспирант, учитель хакасского языка"
+msgstr "PhD student, teacher of the Khakass language"
+
+msgid "колхозница"
+msgstr "collective farmer"
+
+msgid "учитель биологии и географии"
+msgstr "biology and geography teacher"
+
+msgid "учитель хакасского и русского языка"
+msgstr "teacher of Khakass and Russian languages"
+
+msgid "разнорабочая"
+msgstr "handyman"
+
+msgid "преподаватель университета"
+msgstr "university lecturer"
+
+msgid "студент"
+msgstr "student"
+
+msgid "профессор, зав.отделом"
+msgstr "professor, head of department"
+
+msgid "исполнительница традиционной музыки"
+msgstr "traditional music performer"
+
+msgid "доярка"
+msgstr "milkmaid"
+
+msgid "учитель английского языка"
+msgstr "English teacher"
+
+msgid "metafield_genre"
+msgstr "genre"
+
+msgid "metafield_year of birth"
+msgstr "year of birth"
+
+msgid "metafield_place of birth"
+msgstr "place of birth"
+
+msgid "metafield_place_of_recording"
+msgstr "place of recording"
+
+msgid "metafield_education"
+msgstr "education"
+
+msgid "metafield_what work (before retirement)"
+msgstr "work"
+
+msgid "metafield_speaker_name"
+msgstr "speaker name"
+
+msgid "metafield_native language"
+msgstr "native language"
+
+msgid "metafield_place of residence at the time of recording"
+msgstr "place of residence"
+
+msgid "metafield_dialect"
+msgstr "dialect"
+
+msgid "metafield_year"
+msgstr "year"
+
+msgid "metafield_year_from"
+msgstr "year: from"
+
+msgid "metafield_year_to"
+msgstr "year: to"
+
+msgid "metafield_year_birth"
+msgstr "year of birth"
+
+msgid "metafield_year_publ"
+msgstr "publication year"
+
+msgid "metafield_title"
+msgstr "title"
+
+msgid "metafield_title_en"
+msgstr "title in English"
+
+msgid "metafield_title_myv"
+msgstr "title in Erzya"
+
+msgid "metafield_author"
+msgstr "author"
+
+msgid "metafield_topic"
+msgstr "topic"
+
+msgid "metafield_sex"
+msgstr "sex"
+
+msgid "metafield_gender"
+msgstr "gender"
+
+msgid "metafield_age"
+msgstr "age"
+
+msgid "metafield_origin"
+msgstr "place of origin"
+
+msgid "metafield_speaker"
+msgstr "speaker"
+
+msgid "metafield_speakers"
+msgstr "speakers"
+
+msgid "metafield_published"
+msgstr "published"
+
+msgid "metafield_issue"
+msgstr "issue"
+
+msgid "metafield_birthyear"
+msgstr "year of birth"
+
+msgid "metafield_byear"
+msgstr "year of birth"
+
+msgid "metafield_birthplace"
+msgstr "place of birth"
+
+msgid "metafield_profession"
+msgstr "profession"
+
+msgid "metafield_occupation"
+msgstr "occupation"
+
+msgid "metafield_liveplace"
+msgstr "place of living"
+
+msgid "metafield_home_town"
+msgstr "home town"
+
+msgid "metafield_city"
+msgstr "city"
+
+msgid "metafield_place"
+msgstr "place"
+
+msgid "metafield_region"
+msgstr "region"
+
+msgid "metafield_subject"
+msgstr "subject"
+
+msgid "metafield_style"
+msgstr "style"
+
+msgid "metafield_length"
+msgstr "length"
+
+msgid "metafield_annotators"
+msgstr "annotators"
+
+msgid "metafield_language"
+msgstr "language"
+
+msgid "metafield_orth"
+msgstr "orthography"
+
+msgid "metafield_year_post"
+msgstr "Year (post-level)"
+
+msgid "metafield_sex_post"
+msgstr "Sex (post-level)"
+
+msgid "metafield_city_post"
+msgstr "Current place (post-level)"
+
+msgid "metafield_home_town_post"
+msgstr "Birth place (post-level)"
+
+msgid "metafield_account_type_post"
+msgstr "Account type (post-level)"
+
+msgid "metafield_byear_post"
+msgstr "Birth year (post-level)"
+
+msgid "metafield_post_type"
+msgstr "Post type"
+
+msgid "metafield_account_type"
+msgstr "Account type"
+
+msgid "metafield_page"
+msgstr "Page"
+
+msgid "metafield_line"
+msgstr "Line"
+
+msgid "metafield_type"
+msgstr "Type"
+
+msgid "metafield_sphere"
+msgstr "Sphere"
+
+msgid "metafield_chronotop"
+msgstr "Chronotope"
+
+msgid "metafield_genre_fi"
+msgstr "Genre of fiction"
+
+msgid "metafield_publication"
+msgstr "Publication"
+
+msgid "metafield_medium"
+msgstr "Medium"
+
+msgid "metafield_country"
+msgstr "Country"
+
+msgid "metafield_tagging"
+msgstr "Tagging"
+
+msgid "metafield_translator"
+msgstr "Translator"
+
+msgid "metafield_lang"
+msgstr "Original language"
+
+msgid "metafield_lang_trans"
+msgstr "Language of translation"
+
+msgid "metafield_date_trans"
+msgstr "Date of translation"
+
+
+
+# Names of the metadata values you have in the corpus:
+
+msgid "metavalue_press"
+msgstr "press"
+
+msgid "metavalue_fiction"
+msgstr "fiction"
+
+msgid "metavalue_nonfiction"
+msgstr "non-fiction"
+
+msgid "metavalue_wikipedia"
+msgstr "Wikipedia"
+
+msgid "metavalue_religion"
+msgstr "religion"
+
+msgid "metavalue_oral"
+msgstr "oral"
+
+msgid "metavalue_written"
+msgstr "written"
+
+msgid "metavalue_poetry"
+msgstr "poetry"
+
+msgid "metavalue_novel"
+msgstr "novel"
+
+msgid "metavalue_story"
+msgstr "story"
+
+msgid "metavalue_dialogue"
+msgstr "dialogue"
+
+msgid "metavalue_monologue"
+msgstr "monologue"
+
+msgid "metavalue_interview"
+msgstr "interview"
+
+msgid "metavalue_essay"
+msgstr "essay"
+
+msgid "metavalue_male"
+msgstr "male"
+
+msgid "metavalue_female"
+msgstr "female"
+
+msgid "metavalue_M"
+msgstr "M"
+
+msgid "metavalue_F"
+msgstr "F"
+
+msgid "metavalue_experiment"
+msgstr "experiment"
+
+
+# Names of additional word-level annotation fields:
+
+msgid "wordfield_trans_ru"
+msgstr "translation (RU)"
+
+msgid "wordfield_trans_en"
+msgstr "translation (EN)"
+
+msgid "wordfield_lex2"
+msgstr "2nd lemma"
+
+msgid "wordfield_trans_ru2"
+msgstr "2nd transl. (RU)"
+
+msgid "wordfield_trans_en2"
+msgstr "2nd transl. (EN)"
+
+msgid "wordfield_logogram"
+msgstr "logogram"
+
+msgid "wordfield_transcription"
+msgstr "transcription"
+
+msgid "wordfield_segment"
+msgstr "segment"
+
+
+# ******** The rest is more or less universal:  ********
+
+#: templates/index.html:4
+msgid "Corpus search page"
+msgstr "Corpus search page"
+
+#: templates/index.html:22
+msgid "Corpus name"
+msgstr "Corpus name"
+
+msgid "Show help"
+msgstr "Show help"
+
+#: templates/index.html:40
+msgid "Query"
+msgstr "Query"
+
+#: templates/index.html:51
+msgid "Word_header"
+msgstr "Word"
+
+#: templates/index.html:51
+msgid "Number_sign"
+msgstr "#"
+
+#: templates/index.html:52
+msgid "Word:"
+msgstr "Word:"
+
+#: templates/index.html:53
+msgid "Lemma:"
+msgstr "Lemma:"
+
+msgid "Lemma"
+msgstr "Lemma"
+
+#: templates/index.html:54
+msgid "Grammar:"
+msgstr "Grammar:"
+
+msgid "Grammar"
+msgstr "Grammar"
+
+#: templates/index.html:56
+msgid "Gloss:"
+msgstr "Gloss:"
+
+msgid "Gloss"
+msgstr "Gloss"
+
+msgid "Additional fields"
+msgstr "Additional fields"
+
+msgid "Annotation layers in glossed mode:"
+msgstr "Annotation layers in glossed mode:"
+
+#: templates/index.html:61
+msgid "Language:"
+msgstr "Language:"
+
+#: templates/index.html:75
+msgid "negative_query"
+msgstr "negative&nbsp;query"
+
+#: templates/index.html:76
+msgid "add_word"
+msgstr "add word"
+
+#: templates/index.html:79
+msgid "more_fields"
+msgstr "more fields"
+
+msgid "less_fields"
+msgstr "less fields"
+
+#: templates/index.html:85
+msgid "Full-text search:"
+msgstr "Full-text search:"
+
+#: templates/index.html:85
+msgid "Precise match"
+msgstr "Precise match"
+
+#: templates/index.html:89
+msgid "Additional search and display options"
+msgstr "Additional search and display options"
+
+#: templates/index.html:91
+msgid "Results per page:"
+msgstr "Results per page:"
+
+#: templates/index.html:92
+msgid "Sorting:"
+msgstr "Sorting:"
+
+#: templates/index.html:93
+msgid "random"
+msgstr "random"
+
+#: templates/index.html:94
+msgid "by word (word queries)"
+msgstr "by word (word queries)"
+
+#: templates/index.html:95
+msgid "by lemma (word queries)"
+msgstr "by lemma (word queries)"
+
+#: templates/index.html:96
+msgid "by frequency"
+msgstr "by frequency"
+
+#: templates/index.html:97
+msgid "no sorting"
+msgstr "no sorting"
+
+#: templates/index.html:99
+msgid "Language/tier:"
+msgstr "Language/tier:"
+
+#: templates/index.html:107
+msgid "Word distance requirements are strict"
+msgstr "Word distance requirements are strict"
+
+#: templates/index.html:111
+msgid "Transliteration: "
+msgstr "Transliteration: "
+
+msgid "Character input method: "
+msgstr "Character input method: "
+
+#: templates/index.html:124
+msgid "Search sentences"
+msgstr "Search sentences"
+
+#: templates/index.html:125
+msgid "Search words"
+msgstr "Search words"
+
+msgid "Search lemmata"
+msgstr "/ lemmata"
+
+#: templates/index.html:126
+msgid "Select subcorpus"
+msgstr "Select subcorpus"
+
+#: templates/index.html:153
+msgid "(Place for results)"
+msgstr "(Place for results)"
+
+#: templates/result_docs.html:1
+msgid "Filter result:"
+msgstr "Filter result:"
+
+#: templates/result_docs.html:1
+msgid "document with"
+msgstr "document with"
+
+msgid "documents_1 with"
+msgstr "documents with"
+
+msgid "documents_2-4 with"
+msgstr "documents with"
+
+msgid "documents with"
+msgstr "documents with"
+
+#: templates/result_docs.html:1
+msgid "word found,"
+msgstr "word found,"
+
+msgid "words_1 found,"
+msgstr "words found,"
+
+msgid "words_2-4 found,"
+msgstr "words found,"
+
+msgid "words found,"
+msgstr "words found,"
+
+#: templates/result_docs.html:1
+msgid "of the entire corpus."
+msgstr "of the entire corpus."
+
+#: templates/result_sentences.html:54
+msgid "download as CSV"
+msgstr "download as CSV"
+
+#: templates/result_sentences.html:55
+msgid "download as XLSX"
+msgstr "download as XLSX"
+
+#: templates/result_words.html:1
+msgid "Search result:"
+msgstr "Search result:"
+
+#: templates/result_words.html:1
+msgid "unique word"
+msgstr "unique word"
+
+msgid "different words_1"
+msgstr "different words"
+
+msgid "different words_2-4"
+msgstr "different words"
+
+msgid "different words"
+msgstr "different words"
+
+msgid "in approximately"
+msgstr "in approximately"
+
+#: templates/result_words.html:1
+msgid "document found,"
+msgstr "document found,"
+
+msgid "documents_1 found,"
+msgstr "documents found,"
+
+msgid "documents_2-4 found,"
+msgstr "documents found,"
+
+msgid "documents found,"
+msgstr "documents found,"
+
+#: templates/result_words.html:1
+msgid "total frequency:"
+msgstr "total frequency:"
+
+#: templates/result_words.html:4
+msgid "word_th_word"
+msgstr "word"
+
+msgid "word_th_lemma"
+msgstr "lemma"
+
+msgid "word_th_transcription"
+msgstr "transcription"
+
+#: templates/result_words.html:4
+msgid "word_th_frequency"
+msgstr "freq"
+
+#: templates/result_words.html:4
+msgid "word_th_freq. rank / quantile"
+msgstr "freq. rank /<br>quantile"
+
+#: templates/result_words.html:4
+msgid "word_th_# sentences"
+msgstr "# sentences"
+
+#: templates/result_words.html:4
+msgid "word_th_# documents"
+msgstr "# documents"
+
+#: templates/result_words.html:4
+msgid "word_th_search in corpus"
+msgstr "search"
+
+msgid "word_th_word stats"
+msgstr "statistics"
+
+#: templates/select_gloss.html:38 templates/select_gramm.html:25
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Word statistics header"
+msgstr "Word statistics"
+
+msgid "Word statistics"
+msgstr "Word statistics"
+
+msgid "Word statistics for "
+msgstr "Word statistics for "
+
+msgid "(please wait for the plot to load)"
+msgstr "(please wait for the plot to load)"
+
+msgid "Select subcorpus"
+msgstr "Select subcorpus"
+
+msgid "Specify parameters"
+msgstr "Specify parameters"
+
+msgid "Choose from a list"
+msgstr "Choose from a list"
+
+msgid "Subcorpus statistics"
+msgstr "Subcorpus statistics"
+
+msgid "Select parameters"
+msgstr "Select parameters"
+
+msgid "Select documents"
+msgstr "Select documents"
+
+msgid "(please wait for the document list to load)"
+msgstr "(please wait for the document list to load)"
+
+msgid "Selected subcorpus composition"
+msgstr "Selected subcorpus composition"
+
+msgid "Clear subcorpus"
+msgstr "Clear subcorpus"
+
+msgid "You are searching in a subcorpus."
+msgstr "You are searching in a subcorpus."
+
+msgid "The search was not finished due to the query timeout. You only see partial results."
+msgstr "The search was not finished due to the query timeout. You only see partial results."
+
+msgid "occurrence"
+msgstr "occurrence"
+
+msgid "occurrence_1"
+msgstr "occurrences"
+
+msgid "occurrences_2-4"
+msgstr "occurrences"
+
+msgid "occurrences"
+msgstr "occurrences"
+
+msgid "sentence(s) found in approximately"
+msgstr "sentence(s) found in approximately"
+
+msgid "document(s)"
+msgstr "document(s)"
+
+msgid "Viewing mode:"
+msgstr "View:"
+
+msgid "view_standard"
+msgstr "standard"
+
+msgid "view_glossed"
+msgstr "glossed"
+
+msgid "By metadata values"
+msgstr "By metadata values"
+
+msgid "By frequency"
+msgstr "By frequency"
+
+msgid "Distribution by frequency rank"
+msgstr "Distribution by frequency rank"
+
+msgid "Parameter: "
+msgstr "Parameter: "
+
+msgid "Query type: "
+msgstr "Query type: "
+
+msgid "search the whole query"
+msgstr "search the whole query"
+
+msgid "compare words in the query"
+msgstr "compare words in the query"
+
+msgid "Scale of the x axis: "
+msgstr "Scale of the x axis: "
+
+msgid "linear"
+msgstr "linear"
+
+msgid "logarithmic"
+msgstr "logarithmic"
+
+msgid "Back to search"
+msgstr "Back to search"
+
+msgid "Max seconds left: "
+msgstr "Max seconds left: "
+
+msgid "Help"
+msgstr "Help"
+
+msgid "Analyses: "
+msgstr "Analyses: "
+
+msgid "any number of analyses"
+msgstr "any number of analyses"
+
+msgid "only ambiguous"
+msgstr "only ambiguous"
+
+msgid "only non-ambiguous"
+msgstr "only non-ambiguous"
+
+msgid "only without analysis"
+msgstr "only without analysis"
+
+msgid "only with analysis"
+msgstr "only with analysis"
+
+msgid "Position in sentence: "
+msgstr "Position in sentence: "
+
+msgid " Distance to word #"
+msgstr " Distance to word #"
+
+msgid "from "
+msgstr "from "
+
+msgid "to "
+msgstr "to "
+
+msgid "add_distance"
+msgstr "add&nbsp;distance"
+
+msgid "remove_word"
+msgstr "remove&nbsp;word"
+
+msgid "Select combinations of tags"
+msgstr "Select combinations of tags"
+
+msgid "Select glosses"
+msgstr "Select glosses"
+
+msgid "the query"
+msgstr "the query"
+
+msgid "words"
+msgstr "words"
+
+msgid "lemmata"
+msgstr "lemmata"
+
+msgid "Explanation for frequency distributions"
+msgstr "<p>The plot below works as follows. On the <i>x</i> axis, you see frequency ranks, i.e. positions in the full list of all word forms / lemmata of the corpus, ordered by decreasing frequency. If multiple words/lemmata have the same frequency, they get the same rank equal to the average of their positions. For each frequency rank <i>r</i>, <strong>the plot shows the proportion of words/lemmata that conform to your query (each word counts only once) among all words with frequency rank less or equal to <i>r</i></strong> on the <i>y</i> axis. The rightmost point, therefore, shows the total proportion of such words/lemmata among all types (different words) in the corpus. In the case of lemmata, all lemmata that have at least one word form conforming to the query are counted.</p><p>The subcorpus constraints and all words in the query, except the first one, are not taken into account here.</p>"
+
+msgid "Nothing found."
+msgstr "Nothing found."
+
+msgid "Share query"
+msgstr "Share query"
+
+msgid "Share this query"
+msgstr "Share this query"
+
+msgid "Load query"
+msgstr "Load query"
+
+msgid "Load external query"
+msgstr "Load external query"
+
+msgid "If you want to share your query with someone, send them the text you see below. The person who loads this query will see the same results in the same order, unless the corpus has been re-indexed."
+msgstr "If you want to share your query with someone, send them the text you see below. The person who loads this query will see the same results in the same order, unless the corpus has been re-indexed."
+
+msgid "Here you can load a corpus query someone sent you. Please enter the query below:"
+msgstr "Here you can load a corpus query someone sent you. Please enter the query below:"
+
+msgid "Устный корпус диалектов хакасского языка содержит расшифрованные и аннотированные записи текстов, синхронизированные со звуком. Тексты записаны в XXI веке от информантов 1916-1985 гг. рождения в рамках лингвистических экспедиций из Москвы в республику Хакасия. Все тексты пофразово переведены на русский язык. Тексты были автоматически отглоссированны, после чего с помощью программы ELAN была проведена ручная коррекция глоссирования и синхронизация транскрипции текста со звуком."
+msgstr "The Spoken corpus of the dialects of Khakas contains transcribed annotated texts, synchronized with the sound. The texts were recorded during the 21st century with speakers born in 1916-1985 in different expeditions from Moscow to the Republic of Khakassia. All texts are translated to Russian. Texts were analyzed using the automatic parser, and then edited and synchronized with the sound with the help of the ELAN software."
+
+msgid "Данный корпус соотносится с проектом"
+msgstr "This corpus is related to the project"
+
+msgid "Электронный корпус хакасского языка"
+msgstr "Electronic Corpus of Khakas language"
+
+msgid "На этом сайте можно более подробно ознакомиться с целями и принципами данного проекта."
+msgstr "Follow the link to see more information about the aims and methods of the project (Russian only, for now)."
+
+msgid "Транскрипция"
+msgstr "Trancription"
+
+msgid "Тексты записаны в кириллической транскрипции с помощью знаков хакасского алфавита, поскольку парсер ориентирован на работу с литературным хакасским языком. Фонетические особенности диалектов почти не отражаются в транскрипции, однако мы старались сохранить морфологические и морфонологические особенности."
+msgstr "We use the symbols of the Cyrillic Khakas alphabet for transcription of our texts because the parser was made with the goal of analyzing Literary Khakas. Regular phonetic dialect features are mainly ignored, but we tried to show the morphology and morphonology features."
+
+msgid "Морфонология"
+msgstr "Morphonology"
+
+msgid "В строке разбиения на морфемы основы представлены в фонологической записи (транскрипции), а аффиксы – в морфонологической. Каждый аффикс представлен в единой форме, объединяющей его алломорфы с регулярными чередованиями. Например, словоформа туралар ‘дома’  в строке разбиения на морфемы имеет вид тура ЛАр. Показатель множественного числа имеет алломорфы  лар,  лер,  нар,  нер,  тар,  тер, а в строке глоссирования этому соответствует одна морфема  ЛАр. Морфонемы без чередований записываются теми же символами, что и фонемы. "
+msgstr "In the layer with morpheme dividing of the wordforms the stems are written in phonology transcription, and the affixes are written in morphonology transcription. For example, туралар ‘houses’ look like тура-ЛАр when divided to morphemes. The plural marker has allomorphs  лар,  лер,  нар,  нер,  тар,  тер, and in the glossing layes there is one marker  ЛАр. Morphonemes without alternations are written with the same symbols as phonemes."
+
+msgid "Подробнее об этом см. в статье: А. В. Дыбо, Ф. С. Крылов, В. С. Мальцева, А. В. Шеймович. Сегментные правила в автоматическом парсере Корпуса хакасского языка. // Урало-алтайские исследования. № 1 (32), 2019. Стр. 48-69. https://iling-ran.ru/library/ural-altaic/ua2019_32.pdf"
+msgstr "See more on the subject in the paper: Anna V. Dybo, Philip S. Krylov, Vera S. Maltseva, Aleksandra V. Sheimovich. Segmental rules in the automatic parser for the Khakass corpus. In: Ural-Altaoc studies. N 1 (32), 2019. P. 48-69 (in Russian) https://iling-ran.ru/library/ural-altaic/ua2019_32.pdf"
+
+msgid "Морфонемы и фонемы"
+msgstr "Morphonemes"
+
+msgid "Гласные морфонемы"
+msgstr "Vocal morphonemes"
+
+msgid "Согласные морфонемы"
+msgstr "Consonant morphonemes"
+
+msgid "Этот Корпус относится к группе корпусов, использующих поисковую платформу"
+msgstr "This corpus belongs to a group of corpora that are built using the search platform"
+
+msgid ". Инструкция с описанием общих технических возможностей поиска в корпусах этого типа содержится в разделе «Справка» (кнопка с вопросительным знаком в правом верхнем углу страницы поиска). Здесь же описываются правила, специфические для данного корпуса."
+msgstr ". A more general instruction with common technical properties of these corpora can be found in the “Help” section (look for the button marked with a question mark in the top right corner of the search page). The current text describes the rules and conventions that are specific for this Corpus."
+
+msgid "Поиск точных форм («Слово»)"
+msgstr "Searching for specific word forms («Word»)"
+
+msgid "В этом поле можно ввести словоформы, вхождения которых вы хотите найти."
+msgstr "In this field, you can enter specific word forms that you want to find."
+
+msgid "Например: ибде ‘в доме’, килген ‘(он) пришёл’."
+msgstr "For example, ибде ‘at home’, килген ‘he came’."
+
+msgid "Поиск лексем («Лемма»)"
+msgstr "Searching for specific lemmas («Lemma»)"
+
+msgid "Это поле следует использовать для поиска всех форм одного слова (лексемы, леммы). "
+msgstr "This field should be used if you need to find all forms of a given word (lexeme or lemma). "
+
+msgid "Например, если в это поле вбить слово иб ‘дом’, то в поисковой выдаче окажутся все вхождения этого существительного во всех его формах, например, иб ‘дом’, ибні [дом-Acc] ‘(вижу) дом’, иб-і-нде [дом-3pos-Acc] ‘в его доме’ и т.д."
+msgstr "For example, if you enter “иб” ‘home’, the search results will show all sentences where any form of this noun is used, e.g., иб ‘home’, ибні [home-ACC] ‘home (direct object)’, ибінде [home-3pos-Loc] ‘at his home’, etc."
+
+msgid "Леммы следует вводить в поле поиска в начальной форме, т.е. в той же форме, которая используется в хакасских словарях. Для имен (существительных, прилагательных, наречий, местоимений и числительных) начальная форма совпадает с основой (например, иб ‘дом’, сіліг ‘красивый’, ам ‘сейчас’, син ‘ты’, ікі ‘два’). Для глаголов используется форма инфинитива на -Ар-ГА, например, тоғынарға ‘работать’, килерге ‘приходить’. "
+msgstr "Lemmas should be entered in this field in their base form, that is, in the same form which is used in dictionaries. For nouns, adjectives, adverbs, pronouns and numerals, base form is the same as stem (e.g., иб ‘house’, кічіг ‘small’, ам ‘now’, син ‘you’, ікі ‘two’). For verbs, in accordance with the lexicographic practice, the infinitive form with the suffixes  Ar GA is used, e.g., тоғынарға ‘to work’, килерге ‘to come’ etc. "
+
+msgid "Для форм местоимений ол ‘тот’ и пу ‘этот’, в т.ч. в локативных падежах, используются леммы ол и пу, хотя в словаре формы косвенных падежей записаны в виде отдельных лексем. Исключение составляют субстантивированные формы с показателем 3л. посессива ан(ы)зы, мын(ы)зы, пунызы, которые мы считаем отдельными лексемами. Все формы личных местоимений одного лица и числа также относятся к одной лемме: мин ‘я’, син ‘ты’, олар ‘они’ и пр."
+msgstr "For the case forms, including locatives, of pronouns ол ‘this’ and пу ‘that’, lemmmas ол and пу are used, although in the dictionnaries their case forms are written as separate lexemes. The only exceptions are substantivized forms with 3rd person possessive marker ан(ы)зы, мын(ы)зы, пунызы which we consider to be separate lexemes. All the forms of the personal pronouns (with the same person and number) also relate to one lemma: мин ‘I’, син ‘you’, олар ‘they’, etc."
+
+msgid "Грамматика"
+msgstr "Grammar"
+
+msgid "Поле «Грамматика» позволяет осуществлять поиск по частям речи и грамматическим категориям. Для того, чтобы воспользоваться этим поиском, необходимо нажать на кнопку в правой части поля «Грамматика» — появится окно-подсказка, в котором можно выбрать необходимые грамматические пометы. Чтобы выбрать помету, нужно щелкнуть по ней мышкой, она станет выделенной. Чтобы отменить выбор пометы, нужно также щелкнуть по выделенной помете мышкой, и выделение уберется."
+msgstr "This field can be used for building search queries based on part of speech tags and grammatical categories. In order to use this search field, you should press the button immediately to the right of the “Grammar” search field itself; when you press this button, you will see a pop-up window where you can choose from the available grammatical tags. If you want to select a marker, you should click the left mouse button on it, and it will lighten. To cancel the selection of a marker you should click again, and the lightening will turn off."
+
+msgid "Система частей речи, используемая в Корпусе, расшифровывается в следующей таблице."
+msgstr "The parts of speach markerks used in our corpus are explained in the following table."
+
+msgid "Части речи"
+msgstr "Parts of speech"
+
+msgid "v – глагол (в т.ч. причастие и деепричастие), полная парадигма словоизменения"
+msgstr "a verb (including participle and converb), takes all the inflective markers."
+
+msgid "n – имя (существительное, прилагательное, местоимение, числительное, послелог), не изменяется по временам, видам и наклонениям. "
+msgstr "a nominal (noun, adjective, pronoun, numeral, postposition), doesn’t take negation, time, aspect and mood markers. "
+
+msgid "Часть имен не изменяется по падежам, но спрягается (напр. осхас ‘похожий’). Есть намерение выделить такие лексемы в отдельную часть речи после проведения корпусного исследования."
+msgstr "Some nominals don’t take case markers but take personal markers (ex. осхас ‘resembling’). We want to unite such lexemes in one separate part of speech after a corpus research."
+
+msgid "i1 – неизменяемое, к которому могут крепиться эндоклитики (в частности, частица -ох/-ӧх/-ӧк, поглощающая последнюю гласную основы). Напр., піди ‘так’. В эту категорию попадают большинство наречий, в т.ч. застывшие формы деепричастий."
+msgstr "i1 – an invariable which can combine with endoclitics (including particle -ох/-ӧх/-ӧк, which absorbs the last vowel of the stem). For example, піди ‘так’. This category unites most adverbs, including the grammaticalized forms of converbs."
+
+msgid "i – неизменямое, к которому эндоклитики не присоединяются (частица, междометие, союз)"
+msgstr "i – an invariable which can’t combine with endoclitics (particle, conjunction, interjection)"
+
+msgid "Показатели"
+msgstr "Markers"
+
+msgid "Как в разделе «Грамматика», так и в разделе «Глоссы», можно искать только формы с выраженными (ненулевыми) показателями. Исключение составляет глагольная форма повелительного наклонения (единственного числа), представляющая собой чистую основу глагола. Можно найти ее, выбрав в разделе «Грамматика» значения imp и 2sg.)"
+msgstr "Both in “Gloss” field and in “Grammar” field you can only search for the forms with non-zero markers. The only exclusion is the imperative singular form which is a bare form of the verb. One can find it by selecting options “imp” and “2sg” in the “Grammar” field."
+
+msgid "Показатели с цифрой 1 или 2 на  конце (за исключением dur1) занимают более близкую к корню позицию, чем те же показатели без цифр, и выполняют скорее словообразовательную, а не словоизменительную функцию."
+msgstr "Marker with a number 1 or 2 (excluding “dur1”) are situated nearer to the stem then the same markers without numbers, and are used mainly as word formative markers. (Markers with number 1 are nearer to the stem then markers with number 2.)"
+
+msgid "Число"
+msgstr "Number"
+
+msgid "множественное число непредиката (в т.ч. причастия в нефинитной  позиции)"
+msgstr "non-predicative plural"
+
+msgid "иблер ‘дома’, парғаннарына ‘тем (из них), кто ушел’"
+msgstr "иблер ‘homes’, парғаннарына ‘for those who went’"
+
+msgid "множественное число предиката"
+msgstr "predicative plural"
+
+msgid "парғаннар ‘(они) ушли’"
+msgstr "парғаннар ‘they went’"
+
+msgid "Внутренние падежи"
+msgstr "Inner cases"
+
+msgid "генитив"
+msgstr "genitive"
+
+msgid "пістіңнер ‘наши’ (субстантивированная форма)"
+msgstr "пістіңнер ‘ours’"
+
+msgid "локатив"
+msgstr "locative"
+
+msgid "аалдағылар ‘те, кто (живет) в селе’"
+msgstr "аалдағылар ‘those who are (living) in village’"
+
+msgid "All1 и Abl1 встречаются очень редко, обычно в застывших формах в сочетании с другими падежами."
+msgstr "“All1” and “Abl1” are very rare, you can only find them in some grammaticalized forms combined with other cases."
+
+msgid "Сочетание аффиксов Gen1 и 3pos представляет собой на синхронном уровне единый кумулятивный показатель -ни (диалектный вариант -Ди), поэтому мы разделяем их не дефисом, а точкой. Пример: сілерни / сілерди ‘то, что принадлежит вам’."
+msgstr "The combination of “Gen1” and “3pos” synchronically is a cumulative marker  ни (dialectal variant  Ди), therefore we divide them not by hyphen but a dot. Example: сілерни / сілерди ‘yours’."
+
+msgid "Падежи"
+msgstr "Cases"
+
+msgid "У всех падежей есть алломорфы, используемые в сочетании с показателями принадлежности единственного числа."
+msgstr "All cases have allomorphs which are used with the possessive singular markers."
+
+msgid "У многих падежей есть диалектные варианты. Показатели исходного и творительного падежа в некоторых говорах совпадают."
+msgstr "Most cases have dialectal variants. The ablative and the instrumental cases use one morpheme in some dialects."
+
+msgid "аккузатив (винительный)"
+msgstr "accusative"
+
+msgid "суғны / суғды ‘реку’, суғын ‘его реку’"
+msgstr "суғны / суғды ‘(drink) water’, суғын ‘(drink) his water’"
+
+msgid "генитив (родительный)"
+msgstr "genitive"
+
+msgid "азахтың ‘ног’, азағының ‘его ног’"
+msgstr "азахтың ‘of leg’, азағының ‘of his leg’"
+
+msgid "датив (дательный)"
+msgstr "dative"
+
+msgid "ирге ‘мужчине’, иріме ‘моему мужу’"
+msgstr "ирге ‘to a man’, иріме ‘to my husband’"
+
+msgid "локатив (местный)"
+msgstr "locative"
+
+msgid "ибде ‘в доме’, ибінде ‘в его доме’"
+msgstr "ибде ‘in the house’, ибінде ‘in his house’"
+
+msgid "аллатив (направительный)"
+msgstr "allative"
+
+msgid "ибзер/ ибзері / ибзе ‘к дому’, ибінзер /ибінзері / ибінзе ‘к его дому’"
+msgstr "ибзер/ ибзері / ибзе ‘towards a house’, ибінзер /ибінзері / ибінзе ‘towards his house’"
+
+msgid "аблатив (исходный)"
+msgstr "ablative"
+
+msgid "аалнаң / аалдаң ‘из деревни’, аалынаң ‘из его деревни’"
+msgstr "аалнаң / аалдаң ‘from a village’, аалынаң ‘from his village’"
+
+msgid "инструменталис (творительный)"
+msgstr "instrumental"
+
+msgid "малтынаң / малтыдаң / малтыбаң ‘топором’, абамнаң / абаммаң ‘с моим отцом’"
+msgstr "малтынаң / малтыдаң / малтыбаң ‘by an axe’, абамнаң / абаммаң ‘with my dad’"
+
+msgid "пролатив (экватив)"
+msgstr "prolative (equative)"
+
+msgid "чолӌа ‘по дороге’, соонӌа ‘следом за ним’"
+msgstr "чолӌа ‘on a road’, соонӌа ‘following him’"
+
+msgid "делибератив (причинный)"
+msgstr "deliberative"
+
+msgid "аннаңар ‘поэтому’, кибірлердеңері ‘об обычаях’"
+msgstr "аннаңар ‘because’, кибірлердеңері ‘about the traditions’"
+
+msgid "Показатели посессивности"
+msgstr "Possessive markers"
+
+msgid "посессор 1 лица единственного числа (‘я’)"
+msgstr "1st person singular possession (‘I’)"
+
+msgid "хызым ‘моя дочь’"
+msgstr "хызым ‘my daughter’"
+
+msgid "посессор 1 лица множественного числа (‘мы’)"
+msgstr "1st person plural possession (‘us’)"
+
+msgid "хызыбыс ‘наша дочь’"
+msgstr "хызыбыс ‘our daughter’"
+
+msgid "посессор 2 лица единственного числа (‘ты’)"
+msgstr "2nd person singular possession (‘you’)"
+
+msgid "іӌең ‘твоя мать’"
+msgstr "іӌең ‘your mother’"
+
+msgid "посессор 2 лица множественного числа (‘вы’)"
+msgstr "2nd person plural possession (‘you’)"
+
+msgid "іӌеңер ‘ваша мать’"
+msgstr "іӌеңер ‘your mother’"
+
+msgid "посессор 3 лица (‘он’, ‘она’, ‘оно’, ‘они’)"
+msgstr "3rd person possession (‘he’, ‘she’, ‘it’, ‘they’)"
+
+msgid "аал пазы ‘начало деревни’"
+msgstr "аал пазы ‘village’s beginning’"
+
+msgid "посессор 3 лица во внутренней позиции"
+msgstr "3rd person possession (inner position)"
+
+msgid "аал пазындағылар ‘те, кто (живет) в начале деревни’"
+msgstr "аал пазындағылар ‘those who are (living) in the beginning of the village’"
+
+msgid "Вид"
+msgstr "Aspect"
+
+msgid "перфектив"
+msgstr "perfective"
+
+msgid "парыбысхан ‘ушел’"
+msgstr "парыбысхан ‘he’s gone’"
+
+msgid "перфектив в сочетании с частицей"
+msgstr "perfective near the particle"
+
+msgid "чоохтаныпласчам ‘заговариваю то и дело’"
+msgstr "чоохтаныпласчам ‘I speak almost every time’"
+
+msgid "проспектив"
+msgstr "prospective"
+
+msgid "парахча ‘собирается уходить’"
+msgstr "парахча ‘is going to go’"
+
+msgid "дуратив"
+msgstr "durative"
+
+msgid "полчатсын ‘пусть он будет’"
+msgstr "полчатсын ‘let it be’"
+
+msgid "дуратив / настоящее время для глаголов парарға ‘идти’, килерге ‘приходить’"
+msgstr "durative / present for the verbs парарға ‘go’, килерге ‘come’"
+
+msgid "кили ‘идет сюда (сейчас)’"
+msgstr "кили ‘comes now’"
+
+msgid "итератив / настоящее время"
+msgstr "iterative / present"
+
+msgid "тідирлер ‘поговаривают’"
+msgstr "тідирлер ‘they say’"
+
+msgid "Время/наклонение"
+msgstr "Time/Mood"
+
+msgid "недавно прошедшее время"
+msgstr "recent past"
+
+msgid "килді ‘пришел (недавно)’"
+msgstr "килді ‘came (not long ago)’"
+
+msgid "настоящее время"
+msgstr "present"
+
+msgid "узупча ‘спит’"
+msgstr "узупча ‘he sleeps’"
+
+msgid "эвиденциалис (заглазное действие)"
+msgstr "evidential (indirective)"
+
+msgid "партыр ‘он шел (говорят)’"
+msgstr "партыр ‘he went (they say)’"
+
+msgid "заглазное действие (аналитическая форма)"
+msgstr "evidential (analytical form)"
+
+msgid "тіпчен осхас ‘говорит (при пересказе слов того, кого говорящий не слышал)’"
+msgstr "тіпчен осхас ‘he says (the speaker didn’t hear it himself)’"
+
+msgid "аффирматив, сослагательное наклонение и др.значения"
+msgstr "affirmative, subjuntive and other meanings"
+
+msgid "парарӌых ‘пошёл бы’"
+msgstr "парарӌых ‘would come (if smth happened)’"
+
+msgid "императив; имеет собственную парадигму личных окончаний"
+msgstr "imperative; takes the special set of personal markers"
+
+msgid "ат ‘стреляй’, парим ‘пусть я пойду’"
+msgstr "ат ‘shoot’, парим ‘should I go’"
+
+msgid "условное наклонение"
+msgstr "conditional"
+
+msgid "чатса ‘если лежит’"
+msgstr "чатса ‘if it lies’"
+
+msgid "желательное наклонение"
+msgstr "optative"
+
+msgid "халғай ‘пусть останутся’"
+msgstr "халғай ‘let it be left’"
+
+msgid "симулятив, превращает глагол в имя"
+msgstr "simulative, converts the verb to a nominal"
+
+msgid "талаачых ‘притвояющийся теряющим сознание’"
+msgstr "талаачых ‘simulating fainting’"
+
+msgid "Причастия"
+msgstr "Participles"
+
+msgid "Мы не проводим разграничения между причастной и финитной формой с одинаковыми показателями."
+msgstr "We do not distinguish participle and finite forms with the same morphemes."
+
+msgid "прошедшее время "
+msgstr "past "
+
+msgid "одырған ‘сидел’"
+msgstr "одырған ‘сидел’"
+
+msgid "причастие настоящего времени"
+msgstr "present participle"
+
+msgid "хомай чуртапчан кізілер ‘плохо живущие люди’"
+msgstr "хомай чуртапчан кізілер ‘badly living people’"
+
+msgid "причастие настоящего времени для глаголов пар ‘идти’ и кил ‘прийти’"
+msgstr "present participle with the verbs пар ‘go’ and кил ‘come’"
+
+msgid "сӱр парин остар ‘гонят (как сейчас)’"
+msgstr "сӱр парин остар ‘drive (as now)’"
+
+msgid "будущее время"
+msgstr "future"
+
+msgid "килер ‘придёт’"
+msgstr "килер ‘will come’"
+
+msgid "отрицательное будущее"
+msgstr "negative future"
+
+msgid "килбес ‘не придёт’"
+msgstr "килбес ‘will not come’"
+
+msgid "хабитуалис (обычное действие в прошедшем (финитное употребление) или настоящем (причастное употребление)) времени"
+msgstr "habitual (past as finite form and present as non-finite form)"
+
+msgid "тоғынӌаң ‘работал (обычно)’"
+msgstr "тоғынӌаң ‘worked (usually)’"
+
+msgid "ассумптив («похоже, что…»)"
+msgstr "assumptive («it seems that…»)"
+
+msgid "хайтпаадағ ‘не случится (скорее всего)’"
+msgstr "хайтпаадағ ‘won’t happen (normally)’"
+
+msgid "кунктатив («еще не…»)"
+msgstr "cunctative («not yet…»)"
+
+msgid "пысхалах ‘еще не созрел’"
+msgstr "пысхалах ‘is not yet ripe’"
+
+msgid "Деепричастие"
+msgstr "Converbs"
+
+msgid "деепричастие последовательного действия"
+msgstr "consequative converb"
+
+msgid "алып алып, парыбысхан ‘купив, уехал’"
+msgstr "алып алып, парыбысхан ‘having bought, went away’"
+
+msgid "деепричастия одновременного действия"
+msgstr "simultanious converb"
+
+msgid "чара парарға ‘отделяясь, уходить’"
+msgstr "чара парарға ‘to go separating’"
+
+msgid "отрицательное деепричастие"
+msgstr "negative form of converb"
+
+msgid "хурғатпин тартырарға ‘не высушивая молоть’"
+msgstr "хурғатпин тартырарға ‘to grind without drying’"
+
+msgid "Личные окончания"
+msgstr "Person markers"
+
+msgid "1 лицо единственного числа"
+msgstr "1st singular person marker"
+
+msgid "парам ‘я пойду’"
+msgstr "парам ‘I will go’"
+
+msgid "1 лицо множественного числа"
+msgstr "1st plural person marker"
+
+msgid "парарбыс ‘мы пойдём’"
+msgstr "парарбыс ‘we’ll go’"
+
+msgid "2 лицо единственного числа"
+msgstr "2nd singular person marker"
+
+msgid "парғаң ‘ты пошёл’"
+msgstr "парғаң ‘you went’"
+
+msgid "2 лицо множественного числа"
+msgstr "2nd plural person marker"
+
+msgid "парғазар ‘вы пошли’"
+msgstr "парғазар ‘you (pl) went’"
+
+msgid "3 лицо (маркированная форма только в императиве, нуль невозможно отличить автоматически от отсутствия категории в словоформе)"
+msgstr "3rd person marker (marked form only with imperative; it’s not possible to distinguish zero marker and the absence of marker in the word automatically)"
+
+msgid "ползын ‘пусть (он) будет’"
+msgstr "ползын ‘let it be’"
+
+msgid "императив инклюзивный единственного числа («я и ты»)"
+msgstr "inclusive imperative singular («I and you (sg)»)"
+
+msgid "параң ‘пойдём!’"
+msgstr "параң ‘let’s (two of us) go!’"
+
+msgid "императив инклюзивный множественного числа («я и вы»)"
+msgstr "inclusive imperative plural («I and you (pl)»)"
+
+msgid "параңар / паралар ‘пойдёмте’"
+msgstr "параңар / паралар ‘let’s (all) go!’"
+
+msgid "Отрицание"
+msgstr "Negation"
+
+msgid "отрицание"
+msgstr "negation"
+
+msgid "парба ‘не уходи’"
+msgstr "парба ‘don’t go’"
+
+msgid "Прочее"
+msgstr "Other"
+
+msgid "дистрибутив"
+msgstr "distributive"
+
+msgid "тастағлаабыс ‘мы бросали (много чего)’"
+msgstr "тастағлаабыс ‘we throught (many things)’"
+
+msgid "основообразующий показатель на основе деепричастия ConvP, присутствующий в ряде синтетических и аналитических форм"
+msgstr "word-formative marker from ConvP, which is used in some syntheical and analytical forms"
+
+msgid "пар-Ø-ча ‘идет’, сана-п-ча ‘считает’"
+msgstr "пар-Ø-ча ‘goes’, сана-п-ча ‘counts’"
+
+msgid "комлементайзер (аналитическая конструкция)"
+msgstr "complementizer (separate word)"
+
+msgid "парғам чаблах одалирға тіп ‘я пошла (,чтобы) картошку копать’"
+msgstr "парғам чаблах одалирға тіп ‘I went to dig potatoes’"
+
+msgid "Словообразование"
+msgstr "Word formation"
+
+msgid "Мы не отделяем словообразовательные показатели от основы дефисом (а отделяем точкой в строке глоссирования), поэтому их можно найти только поиском по разделу «Грамматика»."
+msgstr "All the word formative markers are not divided from the stem by hyphen, so they can be found only with the search in “Grammar” field."
+
+msgid "Именное словообразование"
+msgstr "Nominal word formation"
+
+msgid "аттрибутивизатор (именных локативных и временных форм)"
+msgstr "attributivizer (of locative and temporal forms)"
+
+msgid "аалдағы ‘находящийся в деревне’, пурунғы ‘прежний’"
+msgstr "аалдағы ‘situated in village’, пурунғы ‘prior’"
+
+msgid "адъективизатор"
+msgstr "adjectivizer"
+
+msgid "полосали ‘полосами’"
+msgstr "полосали ‘by strikes’"
+
+msgid "комитатив («вместе с…», «имея…»)"
+msgstr "comitative («with…, «having…»)"
+
+msgid "тадылығ ‘вкусный’, аттығ ‘конный, на коне’"
+msgstr "тадылығ ‘tasty’, аттығ ‘on a horse, with a horse’"
+
+msgid "диминутив"
+msgstr "diminutive"
+
+msgid "хызыӌах ‘девочка’"
+msgstr "хызыӌах ‘(small) girl’"
+
+msgid "Словообразование числительных"
+msgstr "Numeral word formation"
+
+msgid "собирательное числительное"
+msgstr "collective numeral"
+
+msgid "ікӧлең / ікелең ‘вдвоём’"
+msgstr "ікӧлең / ікелең ‘twosome, two together’"
+
+msgid "разделительное числительное"
+msgstr "distributive numeral"
+
+msgid "пизер ‘по пять’"
+msgstr "пизер ‘by five’"
+
+msgid "Словообразование глагола (залоги)"
+msgstr "Verb word fomation (voices)"
+
+msgid "каузатив (также используется как пассив)"
+msgstr "causative (also used as parrive)"
+
+msgid "итірбе ‘не делай (с помощью других)’"
+msgstr "итірбе ‘don’t do (with the help of other)’"
+
+msgid "пассив"
+msgstr "passive"
+
+msgid "салылған ‘положенный (куда-то)’"
+msgstr "салылған ‘(been) put’"
+
+msgid "рефлексив"
+msgstr "reflexive"
+
+msgid "чоохтанча ‘говорит’"
+msgstr "чоохтанча ‘says’"
+
+msgid "реципрок"
+msgstr "reciproc"
+
+msgid "ылғазып ‘плача вместе’"
+msgstr "ылғазып ‘crying together’"
+
+msgid "Частицы"
+msgstr "Particles"
+
+msgid "Большинство частиц-эндоклитик записываются в хакасской орфографии как отдельные варианты, хотя у многих из них есть регулярные фонетические чередования, а некоторые из них употребляются также в качестве энклитик."
+msgstr "Many of endoclitical particles are written as separate words in the Khakas orthography, though many of them have regular phonetical alternations, and some of them are used as enclitics."
+
+msgid "частица общего вопроса"
+msgstr "general question particle"
+
+msgid "парған ма? ‘пришел?’"
+msgstr "парған ма? ‘(he) came?’"
+
+msgid "вопросительное слово"
+msgstr "question particle"
+
+msgid "а тігілер чи? ‘а те что?’"
+msgstr "а тігілер чи? ‘and they?’"
+
+msgid "фокусная частица"
+msgstr "focus particles"
+
+msgid "адың кемдір? ‘как твое имя?’"
+msgstr "адың кемдір? ‘what’s your name?’"
+
+msgid "редупликация первого слога + п"
+msgstr "reduplication of the 1st syllable + п"
+
+msgid "большая степень признака"
+msgstr "high degree, superlative"
+
+msgid "тап-тадылығ ‘очень вкусный’"
+msgstr "тап-тадылығ ‘very tasty’"
+
+msgid "за, зе, нооза, нізе и др."
+msgstr "за, зе, нооза, нізе, and other"
+
+msgid "эмфатическая частица"
+msgstr "emphatic particle"
+
+msgid "ылғапча нізе ‘плачет ведь’"
+msgstr "ылғапча нізе ‘cryes indeed’"
+
+msgid "частица подтверждения"
+msgstr "confirmative particle"
+
+msgid "ізе тіпче ‘«да», говорит’"
+msgstr "“ізе” тіпче ‘says «yes»’"
+
+msgid "частица, образующая неопределенные местоимения"
+msgstr "indefinite pronoun particle"
+
+msgid "хайдағ-да / хайдағ-та ‘какой-то’"
+msgstr "хайдағ-да / хайдағ-та ‘some’"
+
+msgid "ассоциатив"
+msgstr "associative"
+
+msgid "парохтар ‘тоже имеются’"
+msgstr "парохтар ‘they are (there) too’"
+
+msgid "континуатив"
+msgstr "continuative"
+
+msgid "хырарлача ‘так и краснеет’"
+msgstr "хырарлача ‘reddens all the time’"
+
+msgid "аддитивная частица"
+msgstr "additive particle"
+
+msgid "мин дее ‘даже я’"
+msgstr "мин дее ‘even me’"
+
+msgid "прекативная частица (в некоторых диалектах – вежливая просьба)"
+msgstr "precative particle (polite request in some dialects)"
+
+msgid "пирдек ‘дай-ка; дай, пожалуйста’"
+msgstr "пирдек ‘give, please’"
+
+msgid "Глоссы"
+msgstr "Gloss"
+
+msgid "Поиск по глоссам позволяет создавать запросы, касающиеся морфемной структуры словоформ. В целом этот способ поиска открывает примерно те же возможности, что и поиск по грамматике. В частности, во всплывающем окне, вызываемом кнопкой рядом с полем «глоссы», приводится почти тот же список показателей, что и при поиске по грамматике."
+msgstr "The field “Gloss” allows to submit search queries that concern the morphemic structure of the word forms. In general, this type of search is functionally similar to the search in the field “Grammar”. In particular, the list of markers that can be viewed by clicking the button next to the field “Gloss” largely overlaps with those given in the field “Grammar”."
+
+msgid "Общие принципы работы поиска по глоссам и основные отличия такого поиска от поиска по грамматике приводятся в разделе «Справка» (кнопка с вопросительным знаком в правом верхнем углу страницы поиска). Здесь дополнительно перечисляются особенности поиска по глоссам, специфические для данного корпуса."
+msgstr "The general principle of search by a gloss and the major differences of this type of search from the grammatical search are described in the “Help” section (the button with a question mark in the top right corner of the search window). The key features of the gloss-based search that are specific for this corpus are given below."
+
+msgid "Все диалектные показатели помечены пометой .dial. Это касается как вариантов морфем (Acc.dial), так и показателей, отсутствующих в литературном языке (Prosp.dial)."
+msgstr "All the dialectal markers have the .dial label, both the morpheme variants (Acc.dial) and the markers which are not used in literary Khakas (Prosp.dial)."
+
+msgid "При поиске по глоссам не находятся такие словоформы, при глоссировании которых релевантные части словоформ не членятся на морфемы. Например, словоформа дательного падежа местоимения син ‘ты’ выглядит как сегее / сағаа / сее, не членится на морфемы и глоссируется целиком как “ты.Dat”. Эта словоформа попадает в выдачу по грамматическому запросу «dat», но при поиске по глоссам она не попадает в выдачу по запросу «STEM-DAT». "
+msgstr "Gloss-based search does not include the word forms where there is no morphemic border between the marker in question and the stem. For instance, the dative case form of the pronoun син ‘you’ is сегее / сағаа / сее, which is not segmentable into morphemes and glossed “you.DAT”. This form will be among the hits of the grammatical query “dat”, but will not be included in the occurrences corresponding to the gloss-based search “STEM-DAT”. "
+
+msgid "При записи формул строения словоформ можно воспользоваться такими элементами, как CASE, CASE1, POSS, PRTCP, CONV, PERSON. Каждый из них соответствует не конкретной морфеме, а группе морфем. CASE — любой показатель падежа, CASE1 — любой показатель падежа во внутренней позиции, POSS — любой притяжательный показатель, PRTCP — любой показатель причастия, CONV — любой показатель деепричастия, PERSON — любой личный показатель. "
+msgstr "The gloss-based query can be constructed using either specific glosses or the options CASE, CASE1, POSS, PRTCP, CONV, PERSON. These labels specify a group of morphemes rather than a specific gloss. CASE stands for any case marker, CASE1 stands for any case marker in inner position, POSS stands for any possessive marker, PRTCP stands for any participle marker, CONV stands for any converb marker, and PERSON stands for any person marker. "
+
+msgid "Состав корпуса"
+msgstr "Corpus composition"
+
+msgid "На данный момент в корпусе представлены:"
+msgstr "The corpus contains:"
+
+msgid "- 23 текста на аскизском говоре сагайского диалекта, собранные в с. Казановка в 2001-2002 гг. в рамках экспедиции Российского государственного гуманитарного университета под руководством Нины Романовны Сумбатовой. Объем корпуса – 13 тыс. слов, длительность записи 2 ч. 18 мин."
+msgstr "- 23 texts of Askiz dialect, collected in the Kazanovka village in 2001-2002 during the expedition of the Linguistic Department of the Russian State University for Humanities, headed by Nina Sumbatova. It contains about 13 000 tokens, the duration is 2h 18 min."
+
+msgid "- 27 текстов на бельтырском диалекте, собранные в 2011 г. в сс. Бутрахты, Чиланы, Карагай Э.В. Султрековой (Кыржинаковой) и А.В. Дыбо. Объем корпуса 45 тыс. слов, длительность 9 ч. 22 мин."
+msgstr "- 27 texts of Belty dialect, collected in 2011 in villages Butrachty, Chylany, Karagay by Anna Dybo and Elvira Kyrzhinakova. It contains about 45 000 tokens, the duration is 9 h 22 min."
+
+msgid "Корпус будет пополняться текстами на других диалектах хакасского языка (качинском, кызыльском, шорском)."
+msgstr "Texts on other dialects (Kacha, Kyzyl, Shor) will be added."
+
+msgid "Создатели"
+msgstr "Project participants"
+
+msgid "Тексты были подготовлены к публикации в виде корпуса в 2017 г. Исполнитель проекта – Вера Сергеевна Мальцева."
+msgstr "The processing of the texts for inclusion in the corpus was conducted in 2017. This work was carried out by Vera Maltseva."
+
+msgid "Международной лабораторией языковой конвергенции"
+msgstr "Linguistic Convergence Laboratory"
+
+msgid "Высшей Школы Экономики"
+msgstr "of the National Research University Higher School of Economics"
+
+msgid ". Исполнитель проекта – Вера Сергеевна Мальцева."
+msgstr ". This work was carried out by Vera Maltseva."
+
+msgid "Проект Устного корпуса диалектов хакасского языка поддерживается"
+msgstr "The Spoken corpus of the dialects of Khakas is a project supported by the"
+
+msgid ". Корпус создан в рамках Программы фундаментальных исследований Национального исследовательского университета «Высшая школа экономики» (НИУ ВШЭ) и с использованием средств субсидии в рамках государственной поддержки ведущих университетов Российской Федерации «5-100»."
+msgstr ". It is conducted within the framework of the Basic Research Program at the National Research University 'Higher School of Economics' (HSE) and supported as part of the Russian Academic Excellence Project '5-100'."
+
+msgid "Этот проект является частью более общего проекта по описанию хакасского языка"
+msgstr "This project is a part of a large project on the documentation of the Khakas language"
+
+msgid "В нем принимают участие:"
+msgstr "The following people are involved:"
+
+msgid "Анна Владимировна Дыбо – руководство проектом, создание автоматического парсера (содержательная часть)"
+msgstr "Anna Dybo – project supervisor, automatic parser creation"
+
+msgid "Эльвира Валерьевна Султрекова (Кыржинакова) – расшифровка и перевод большинства текстов (тексты из дер. Казановка 2001-2002 гг. в основном расшифрованы и переведены участниками экспедиций РГГУ при помощи жителей деревни)"
+msgstr "Elvira Sultrekova (Kyrzhinakova) – transcription and translation of most texts (text collected in Kazanovka village in 2001-2002 were mostly transcribed and translated by the members of expedition with the help of the people of the village)."
+
+msgid "Александра Валерьевна Шеймович – словарь (создание электронного словаря хакасского языка в системе Starling на основе Хакасского-русского словаря (Новосибирск, 2006, ок. 220 тыс. слов)"
+msgstr "Alexandra Sheymovich – dictionary (conversion of The Khakas-Russian dictionary"
+
+msgid "Филипп Сергеевич Крылов – создание автоматического парсера (техническая часть) "
+msgstr "Phil Krylov – programming of the automatic parser"
+
+msgid "Вера Сергеевна Мальцева – создание автоматического парсера (содержательная часть), обработка текстов в программе ELAN (разметка звука, коррекция глоссировки после автоматического парсирования)"
+msgstr "Vera Maltseva – automatic parser creation, text processing in Elan (correction of the parser’s results, annotation of sound)"
+
+msgid "Елена Валерьевна Тенькова – написание и поддержка макроса для записи результатов автоматического парсирования текстов в программу ELAN"
+msgstr "Elena Tenkova – macros for writing of results of automatic parsing of texts in Elan files"

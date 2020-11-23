@@ -1,0 +1,129 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 71%/1.5 Verdana, Sans-Serif;
+    background: #eee;
+}
+*/
+#keyboard_container {
+    margin: 100px auto;
+    width: 300px;
+    background: rgba(255, 255, 255, 1);
+}
+#write {
+    margin: 10px;
+    padding: 10px;
+    font: 1em/1.5 Verdana, Sans-Serif;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid #f9f9f9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#keyboard_wf {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: rgba(255, 255, 255, 1);
+}
+#keyboard_wf li {
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid #f9f9f9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.capslock, .tab, .left-shift {
+    clear: left;
+}
+#keyboard_wf .tab, #keyboard_wf1 .delete {
+    width: 70px;
+}
+#keyboard_wf .capslock {
+    width: 80px;
+}
+#keyboard_wf .return {
+    width: 77px;
+}
+#keyboard_wf .left-shift {
+    width: 95px;
+}
+#keyboard_wf .right-shift {
+    width: 88px;
+}
+.lastitem {
+    margin-right: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+#keyboard_wf .space {
+    clear: left;
+    width: 681px;
+}
+.on {
+    display: none;
+}
+#keyboard_wf li:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    border-color: #e5e5e5;
+    cursor: pointer;
+}
+
+
+#keyboard_lex {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: rgba(255, 255, 255, 1);
+}
+#keyboard_lex li {
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid #f9f9f9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#keyboard_lex .tab, #keyboard_lex .delete {
+    width: 70px;
+}
+#keyboard_lex .capslock {
+    width: 80px;
+}
+#keyboard .return {
+    width: 77px;
+}
+#keyboard_lex .left-shift {
+    width: 95px;
+}
+#keyboard_lex .right-shift {
+    width: 88px;
+}
+
+#keyboard_lex .space {
+    clear: left;
+    width: 681px;
+}
+
+#keyboard_lex li:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    border-color: #e5e5e5;
+    cursor: pointer;
+}

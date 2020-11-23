@@ -1,0 +1,230 @@
+{
+  "corpus_name": "conlab_adyghe",
+  "citation": "<p>Irina Bagirokova, Yury Lander, Anna Sorokina. West Circassian (Adyghe) Spoken Corpus. (Available online at: adyghe.web-corpora.net).</p>",
+  "start_page_url": "http://adyghe.web-corpora.net/",
+  "input_format": "json",
+  "debug": false,
+  "media": true,
+  "media_length": 60,
+  "max_context_expand": 5,
+  "max_distance_filter": 200000,
+  "max_docs_retrieve": 9999,
+  "integer_meta_fields": ["year of birth"],
+  "max_words_in_sentence": 40,
+  "query_timeout": 60,
+  "viewable_meta": [
+    "filename",
+    "author",
+    "title",
+    "year_from",
+    "year_to",
+    "year"
+  ],
+  "sentence_meta": [
+    "speaker",
+    "speaker_name",
+    "place of residence",
+    "place of birth",
+    "year of birth",
+    "gender"
+  ],
+  "search_meta": {
+    "columns": [
+      [
+        {"type": "input_text", "name": "author", "placeholder": "Author"},
+        {"type": "input_text", "name": "title", "placeholder": "Title"},
+        {"type": "separator"},
+        {"type": "input_number", "name": "year_from", "placeholder": "Year: from"},
+        {"type": "input_number", "name": "year_to", "placeholder": "Year: to"}
+      ]
+    ],
+    "stat_options": [
+      "speakers",
+      "year",
+      "title"
+    ]
+  },
+  "word_fields":
+  [
+    "trans_ru",
+    "lex2",
+    "trans_ru2"
+  ],
+  "languages": ["adyghe", "russian"],
+  "transliterations": ["original", "IPA"],
+  "input_methods": ["normal", "strict"],
+  "interface_languages": {"en": "English", "ru": "Russian"},
+  "all_language_search_enabled": true,
+  "gloss_search_enabled": true,
+  "ambiguous_analyses": true,
+  "lang_props":
+  {
+    "adyghe":
+    {
+      "dictionary_categories": ["vType", "nType"],
+      "gloss_shortcuts": {
+        "case": "(obl(\\.pl)?|abs|erg|ins|adv)",
+        "nom": "abs",
+        "erg": "obl(\\.pl)?",
+        "app": "(dat|ben|mal|(gen)?loc|com|instr|inadv)",
+        "pers": "(([123](sg|pl)|rel|rec|rfl)\\.(abs|erg|io))",
+        "pers.abs": "(([123](sg|pl)|rel|rec|rfl)\\.abs)",
+        "pers.erg": "(([123](sg|pl)|rel|rec|rfl)\\.erg)",
+        "pers.io": "(([123](sg|pl)|rel|rec|rfl)\\.io)",
+        "pers.p": "(([123](sg|pl)|rel|rec)\\.p)",
+        "tense": "(pst|fut|aux)",
+        "sfx": "(re|ill|el|cont)"
+      },
+      "gr_fields_order": ["abbr", "stem_alt", "vType", "nType", "numType", "dir", "appl", "v_deriv", "persAbs", "numAbs", "persErg", "numErg", "persIO", "numIO", "rel", "dyn", "poss", "num_deriv", "posChange", "v_form", "ptcp_form", "vSfx", "tense", "person", "number", "case", "clitics", "incorp", "add"],
+      "gramm_selection": {
+        "columns": [
+          [
+            {"type": "header", "value": "Части речи"},
+            {"type": "gramm", "value": "N", "category": "pos", "tooltip": "существительное"},
+            {"type": "gramm", "value": "V", "category": "pos", "tooltip": "глагол"},
+            {"type": "gramm", "value": "A", "category": "pos", "tooltip": "прилагательное"},
+            {"type": "gramm", "value": "ADV", "category": "pos", "tooltip": "наречие"},
+            {"type": "gramm", "value": "NUM", "category": "pos", "tooltip": "числительное"},
+            {"type": "gramm", "value": "POST", "category": "pos", "tooltip": "послелог"},
+            {"type": "gramm", "value": "NPRO", "category": "pos", "tooltip": "местоимение-существительное"},
+            {"type": "gramm", "value": "APRO", "category": "pos", "tooltip": "местоимение-прилагательное"},
+            {"type": "gramm", "value": "PRO", "category": "pos", "tooltip": "другое местоимение"},
+            {"type": "gramm", "value": "NtoV", "category": "posChange", "tooltip": "глагольная морфология<br>на сущ. или прил."},
+            {"type": "gramm", "value": "pred", "category": "posChange", "tooltip": "предикативная форма<br>местоимений"}
+          ],
+          [
+            {"type": "header", "value": "Абс. аргумент"},
+            {"type": "gramm", "value": "1.abs", "category": "persAbs", "tooltip": "1-е лицо"},
+            {"type": "gramm", "value": "2.abs", "category": "persAbs", "tooltip": "2-е лицо"},
+            {"type": "gramm", "value": "rfl.abs", "category": "persAbs", "tooltip": "рефлексив"},
+            {"type": "gramm", "value": "sg.abs", "category": "numAbs", "tooltip": "единственное число"},
+            {"type": "gramm", "value": "pl.abs", "category": "numAbs", "tooltip": "множественное число"},
+            {"type": "header", "value": "Эрг. аргумент"},
+            {"type": "gramm", "value": "1.erg", "category": "persErg", "tooltip": "1-е лицо"},
+            {"type": "gramm", "value": "2.erg", "category": "persErg", "tooltip": "2-е лицо"},
+            {"type": "gramm", "value": "3.erg", "category": "persErg", "tooltip": "3-е лицо"},
+            {"type": "gramm", "value": "rec.erg", "category": "persErg", "tooltip": "реципрок"},
+            {"type": "gramm", "value": "rel.erg", "category": "persErg", "tooltip": "релятивизация"},
+            {"type": "gramm", "value": "sg.erg", "category": "numErg", "tooltip": "единственное число"},
+            {"type": "gramm", "value": "pl.erg", "category": "numErg", "tooltip": "множественное число"}
+          ],
+          [
+            {"type": "header", "value": "Косвенный объект"},
+            {"type": "gramm", "value": "1.io", "category": "persIO", "tooltip": "1-е лицо"},
+            {"type": "gramm", "value": "2.io", "category": "persIO", "tooltip": "2-е лицо"},
+            {"type": "gramm", "value": "3.io", "category": "persIO", "tooltip": "3-е лицо"},
+            {"type": "gramm", "value": "rfl.io", "category": "persIO", "tooltip": "рефлексив"},
+            {"type": "gramm", "value": "rec.io", "category": "persIO", "tooltip": "реципрок"},
+            {"type": "gramm", "value": "rel.io", "category": "persIO", "tooltip": "релятивизация"},
+            {"type": "gramm", "value": "sg.io", "category": "numIO", "tooltip": "единственное число"},
+            {"type": "gramm", "value": "pl.io", "category": "numIO", "tooltip": "множественное число"},
+            {"type": "header", "value": "Др. релятивизация"},
+            {"type": "gramm", "value": "rel.sub", "category": "rel", "tooltip": "рел. факта / образа действия"},
+            {"type": "gramm", "value": "rel.tmp", "category": "rel", "tooltip": "рел. времени"},
+            {"type": "separator"},
+            {"type": "gramm", "value": "dir", "category": "dir", "tooltip": "директив"}
+          ],
+          [
+            {"type": "header", "value": "Префиксальная<br>глаг. деривация"},
+            {"type": "gramm", "value": "genloc", "category": "app", "tooltip": "локативный аппликатив (<em>щы-</em>)"},
+            {"type": "gramm", "value": "loc", "category": "app", "tooltip": "др. локативные аппликативы"},
+            {"type": "gramm", "value": "ben", "category": "app", "tooltip": "бенефактивный аппликатив"},
+            {"type": "gramm", "value": "mal", "category": "app", "tooltip": "малефактивный аппликатив"},
+            {"type": "gramm", "value": "com", "category": "app", "tooltip": "комитативный аппликатив"},
+            {"type": "gramm", "value": "trans", "category": "app", "tooltip": "транслативный аппликатив"},
+            {"type": "gramm", "value": "inadv", "category": "app", "tooltip": "инадвертив"},
+            {"type": "gramm", "value": "dat", "category": "app", "tooltip": "дативная деривация"},
+            {"type": "gramm", "value": "caus", "category": "v_deriv", "tooltip": "каузатив"},
+            {"type": "header", "value": "Динамичность/<br>оптатив"},
+            {"type": "gramm", "value": "dyn", "category": "dyn", "tooltip": "динамичность"},
+            {"type": "gramm", "value": "opt", "category": "dyn", "tooltip": "оптатив"}
+          ],
+          [
+            {"type": "header", "value": "Глагольный класс"},
+            {"type": "gramm", "value": "tr", "category": "vType", "tooltip": "переходный"},
+            {"type": "gramm", "value": "intr", "category": "vType", "tooltip": "непереходный"},
+            {"type": "gramm", "value": "dat_v", "category": "vType", "tooltip": "требующий дат. деривации"},
+            {"type": "header", "value": "Чередование <em>э/а</em>"},
+            {"type": "gramm", "value": "alt_stem", "category": "stem_alt", "tooltip": "наличие чередования"},
+            {"type": "gramm", "value": "alt_stem1", "category": "stem_alt", "tooltip": "чередование в 1-м слоге<br>от конца основы"},
+            {"type": "gramm", "value": "alt_stem2", "category": "stem_alt", "tooltip": "чередование во 2-м слоге<br>от конца основы"},
+            {"type": "header", "value": "Инкорпор.<br>глаг. корни"},
+            {"type": "gramm", "value": "ill", "category": "vSfx", "tooltip": "<em>-хьэ-</em>"},
+            {"type": "gramm", "value": "el", "category": "vSfx", "tooltip": "<em>-кӏы-</em>"},
+            {"type": "gramm", "value": "cont", "category": "vSfx", "tooltip": "<em>-лӏэ-</em>"}
+          ],
+          [
+            {"type": "header", "value": "Глагольные<br>окончания и время"},
+            {"type": "gramm", "value": "re", "category": "vSfx", "tooltip": "реверсив/рефактив"},
+            {"type": "gramm", "value": "pot", "category": "vSfx", "tooltip": "потенциалис"},
+            {"type": "gramm", "value": "sim", "category": "v_form", "tooltip": "одновременность"},
+            {"type": "gramm", "value": "pst", "category": "tense", "tooltip": "прошедшее время"},
+            {"type": "gramm", "value": "pst2", "category": "tense", "tooltip": "давнопрошедшее время"},
+            {"type": "gramm", "value": "fut", "category": "tense", "tooltip": "будущее время"},
+            {"type": "gramm", "value": "aux", "category": "tense", "tooltip": "вспомогат. глагол <em>-щты-</em><br>(в сочетаниях)"},
+            {"type": "gramm", "value": "cond", "category": "v_form", "tooltip": "кондиционал"},
+            {"type": "gramm", "value": "mod", "category": "v_form", "tooltip": "модальный суффикс / масдар"},
+            {"type": "gramm", "value": "neg", "category": "v_form", "tooltip": "отрицание"},
+            {"type": "gramm", "value": "neg_ep", "category": "v_form", "tooltip": "отрицание (<em>-эп</em>)"}
+          ],
+          [
+            {"type": "header", "value": "Номинализации"},
+            {"type": "gramm", "value": "nmlz.loc", "category": "posChange", "tooltip": "локативная"},
+            {"type": "gramm", "value": "nmlz", "category": "posChange", "tooltip": "остальные"},
+            {"type": "header", "value": "Посессивность"},
+            {"type": "gramm", "value": "p.1sg", "category": "poss", "tooltip": "1 л. ед. ч."},
+            {"type": "gramm", "value": "p.1pl", "category": "poss", "tooltip": "1 л. мн. ч."},
+            {"type": "gramm", "value": "p.2sg", "category": "poss", "tooltip": "2 л. ед. ч."},
+            {"type": "gramm", "value": "p.2pl", "category": "poss", "tooltip": "2 л. мн. ч."},
+            {"type": "gramm", "value": "p.3sg", "category": "poss", "tooltip": "3 л. ед. ч."},
+            {"type": "gramm", "value": "p.3pl", "category": "poss", "tooltip": "3 л. мн. ч."},
+            {"type": "gramm", "value": "poss", "category": "poss", "tooltip": "префикс отторжимой принадлежности"},
+            {"type": "gramm", "value": "p.rel", "category": "poss", "tooltip": "релятивизация"},
+            {"type": "gramm", "value": "p.rec", "category": "poss", "tooltip": "реципрок"}
+          ],
+          [
+            {"type": "header", "value": "Число сущ."},
+            {"type": "gramm", "value": "sg", "category": "number", "tooltip": "единственное"},
+            {"type": "gramm", "value": "pl", "category": "number", "tooltip": "множественное"},
+            {"type": "gramm", "value": "apl", "category": "number", "tooltip": "ассоциативное множественное"},
+            {"type": "header", "value": "Падеж"},
+            {"type": "gramm", "value": "abs", "category": "case", "tooltip": "абсолютив (именительный)"},
+            {"type": "gramm", "value": "obl", "category": "case", "tooltip": "косвенный (эргатив)"},
+            {"type": "gramm", "value": "ins", "category": "poss", "tooltip": "инструменталис"},
+            {"type": "gramm", "value": "adv", "category": "poss", "tooltip": "адвербиалис"},
+            {"type": "header", "value": "Числительное"},
+            {"type": "gramm", "value": "ord", "category": "numType", "tooltip": "порядковое"},
+            {"type": "gramm", "value": "mult", "category": "numType", "tooltip": "мультипликативное"},
+            {"type": "gramm", "value": "adj", "category": "posChange", "tooltip": "адъективизатор <em>-рэ</em>"}
+          ],
+          [
+            {"type": "header", "value": "Классы сущ.<br>и деривации"},
+            {"type": "gramm", "value": "aug", "category": "nSfx", "tooltip": "аугментатив"},
+            {"type": "gramm", "value": "persn", "category": "nType", "tooltip": "личное имя"},
+            {"type": "gramm", "value": "patrn", "category": "nType", "tooltip": "отчество"},
+            {"type": "gramm", "value": "famn", "category": "nType", "tooltip": "фамилия"},
+            {"type": "gramm", "value": "geo", "category": "nType", "tooltip": "топоним"},
+            {"type": "gramm", "value": "abbr", "category": "abbr", "tooltip": "аббревиатура"},
+            {"type": "separator"},
+            {"type": "gramm", "value": "incorp", "category": "incorp", "tooltip": "инкорпорированный<br>односложный корень"}
+          ],
+          [
+            {"type": "header", "value": "Клитики"},
+            {"type": "gramm", "value": "add", "category": "case", "tooltip": "аддитивная"},
+            {"type": "gramm", "value": "coord", "category": "case", "tooltip": "координативная (<em>-рэ</em>)"},
+            {"type": "gramm", "value": "q", "category": "case", "tooltip": "вопросительная"},
+            {"type": "gramm", "value": "ba", "category": "case", "tooltip": "эмфатическая"},
+            {"type": "gramm", "value": "cs", "category": "poss", "tooltip": "консекутив (<em>-ти</em>)"},
+            {"type": "gramm", "value": "cs2", "category": "poss", "tooltip": "консекутив (<em>-щъ</em>)"}
+          ]
+        ]
+      }
+    },
+    "russian":
+    {
+      "gr_fields_order": [],
+      "gloss_shortcuts": {
+      }
+    }
+  }
+}

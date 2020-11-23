@@ -1,0 +1,47 @@
+{	
+  "corpus_name": "conlab_adyghe",
+  "corpus_dir": "../corpus/",
+  "meta_filename": "meta.csv",
+  "speaker_meta_filename": "meta_speakers.json",
+  "meta_fields":
+  [
+    "filename",
+    "speakers",
+    "title",
+    "date_of_recording",
+    "year"
+  ],
+  "languages": ["adyghe", "russian"],
+  "tier_languages": {
+    ".*tx.*": "adyghe",
+    ".*ft_ru.*": "russian"
+  },
+  "main_tiers": [".*tx.*"],
+  "aligned_tiers": [".*ft_ru.*"],
+  "analysis_tiers": {
+    ".*Words.*": "word",
+    ".*Morph.*": "parts",
+    ".*Lemma.*": "lemma",
+    ".*Gloss.*": "gloss",
+    ".*Gramm.*": "gramm"
+  },
+  "meta_files_ext": true,
+  "meta_files_dir": false,
+  "meta_files_case_sensitive": true,
+  "cg_disambiguate": false,
+  "json_indent": 1,
+  "convert_quotes": true,
+  "gzip": false,
+  "left_quot_mark": "«",
+  "right_quot_mark": "»",
+  "sent_end_punc": "(?:[.!?;;]+(?:[)\\]}>/»]|$)|\\\\n)",
+  "sent_start": "^[A-ZÄÖÜА-ЯЁӤӦӴӞӜ]",
+  "newline_ends_sent": true,
+  "abbreviations": [],
+  "glosses": {
+    "adyghe": [
+    ],
+    "russian": [
+    ]
+  }
+}

@@ -1,0 +1,821 @@
+{
+  "docs": {
+    "mappings": {
+      "doc": {
+        "properties": {
+          "n_words": {
+            "type": "integer"
+          },
+          "n_sents": {
+            "type": "integer"
+          },
+          "filename": {
+            "type": "text",
+            "analyzer": "lowercase_normalizer"
+          },
+          "filename_kw": {
+            "type": "keyword"
+          },
+          "author": {
+            "type": "text",
+            "analyzer": "lowercase_normalizer"
+          },
+          "author_kw": {
+            "type": "keyword"
+          },
+          "title": {
+            "type": "text",
+            "analyzer": "lowercase_normalizer"
+          },
+          "title_kw": {
+            "type": "keyword"
+          },
+          "city": {
+            "type": "text",
+            "analyzer": "lowercase_normalizer"
+          },
+          "city_kw": {
+            "type": "keyword"
+          }
+        }
+      }
+    },
+    "settings": {
+      "analysis": {
+        "analyzer": {
+          "lowercase_normalizer": {
+            "type": "custom",
+            "tokenizer": "standard",
+            "char_filter": [],
+            "filter": [
+              "lowercase"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "sentences": {
+    "mappings": {
+      "sentence": {
+        "properties": {
+          "prev_id": {
+            "type": "integer"
+          },
+          "next_id": {
+            "type": "integer"
+          },
+          "doc_id": {
+            "type": "integer"
+          },
+          "text": {
+            "type": "text"
+          },
+          "lang": {
+            "type": "byte"
+          },
+          "n_words": {
+            "type": "short"
+          },
+          "src_alignment": {
+            "type": "nested",
+            "properties": {
+              "mtype": {
+                "type": "keyword"
+              },
+              "src": {
+                "type": "keyword",
+                "index": false
+              },
+              "off_start_src": {
+                "type": "float",
+                "index": false
+              },
+              "off_start_sent": {
+                "type": "short",
+                "index": false
+              },
+              "off_end_src": {
+                "type": "float",
+                "index": false
+              },
+              "off_end_sent": {
+                "type": "short",
+                "index": false
+              },
+              "rect_src": {
+                "type": "integer",
+                "index": false
+              },
+              "src_id": {
+                "type": "keyword",
+                "index": false
+              }
+            }
+          },
+          "para_ids": {
+            "type": "keyword"
+          },
+          "para_alignment": {
+            "type": "nested",
+            "properties": {
+              "off_start": {
+                "type": "short",
+                "index": false
+              },
+              "off_end": {
+                "type": "short",
+                "index": false
+              },
+              "para_id": {
+                "type": "keyword",
+                "index": false
+              },
+              "sent_ids": {
+                "type": "integer",
+                "index": false
+              }
+            }
+          },
+          "segment_ids": {
+            "type": "integer",
+            "index": false
+          },
+          "words": {
+            "type": "nested",
+            "properties": {
+              "wf": {
+                "type": "text",
+                "fielddata": true,
+                "analyzer": "wf_analyzer"
+              },
+              "wf_display": {
+                "type": "text",
+                "index": false
+              },
+              "wtype": {
+                "type": "keyword"
+              },
+              "lang": {
+                "type": "byte"
+              },
+              "sentence_index": {
+                "type": "short"
+              },
+              "sids": {
+                "type": "integer",
+                "index": false
+              },
+              "n_ana": {
+                "type": "byte"
+              },
+              "ana": {
+                "type": "nested",
+                "properties": {
+                  "lex": {
+                    "type": "text"
+                  },
+                  "gloss_index": {
+                    "type": "text",
+                    "analyzer": "gloss_analyzer"
+                  },
+                  "trans_en": {
+                    "type": "text"
+                  },
+                  "transcription": {
+                    "type": "text"
+                  },
+                  "segment": {
+                    "type": "text"
+                  },
+                  "logogram": {
+                    "type": "text"
+                  },
+                  "gr.conjtype": {
+                    "type": "keyword"
+                  },
+                  "gr.v_form": {
+                    "type": "keyword"
+                  },
+                  "gr.voice": {
+                    "type": "keyword"
+                  },
+                  "gr.dir": {
+                    "type": "keyword"
+                  },
+                  "gr.numIO": {
+                    "type": "keyword"
+                  },
+                  "gr.poss": {
+                    "type": "keyword"
+                  },
+                  "gr.vType": {
+                    "type": "keyword"
+                  },
+                  "gr.case_c": {
+                    "type": "keyword"
+                  },
+                  "gr.v_subcat": {
+                    "type": "keyword"
+                  },
+                  "gr.inflGender": {
+                    "type": "keyword"
+                  },
+                  "gr.stem_alt": {
+                    "type": "keyword"
+                  },
+                  "gr.stress": {
+                    "type": "keyword"
+                  },
+                  "gr.numErg": {
+                    "type": "keyword"
+                  },
+                  "gr.stemAlt": {
+                    "type": "keyword"
+                  },
+                  "gr.vForm": {
+                    "type": "keyword"
+                  },
+                  "gr.numeral": {
+                    "type": "keyword"
+                  },
+                  "gr.attr": {
+                    "type": "keyword"
+                  },
+                  "gr.stemType": {
+                    "type": "keyword"
+                  },
+                  "gr.v_deriv": {
+                    "type": "keyword"
+                  },
+                  "gr.incorp": {
+                    "type": "keyword"
+                  },
+                  "gr.abbr": {
+                    "type": "keyword"
+                  },
+                  "gr.appl": {
+                    "type": "keyword"
+                  },
+                  "gr.attributivizer": {
+                    "type": "keyword"
+                  },
+                  "gr.clitics": {
+                    "type": "keyword"
+                  },
+                  "gr.ptcp_form": {
+                    "type": "keyword"
+                  },
+                  "gr.an": {
+                    "type": "keyword"
+                  },
+                  "gr.additional": {
+                    "type": "keyword"
+                  },
+                  "gr.demType": {
+                    "type": "keyword"
+                  },
+                  "gr.nDef": {
+                    "type": "keyword"
+                  },
+                  "gr.numType": {
+                    "type": "keyword"
+                  },
+                  "gr.case": {
+                    "type": "keyword"
+                  },
+                  "gr.number": {
+                    "type": "keyword"
+                  },
+                  "gr.dyn": {
+                    "type": "keyword"
+                  },
+                  "gr.adj_form": {
+                    "type": "keyword"
+                  },
+                  "gr.gender": {
+                    "type": "keyword"
+                  },
+                  "gr.rel": {
+                    "type": "keyword"
+                  },
+                  "gr.vF": {
+                    "type": "keyword"
+                  },
+                  "gr.nType": {
+                    "type": "keyword"
+                  },
+                  "gr.persIO": {
+                    "type": "keyword"
+                  },
+                  "gr.numAbs": {
+                    "type": "keyword"
+                  },
+                  "gr.g": {
+                    "type": "keyword"
+                  },
+                  "gr.cnvF": {
+                    "type": "keyword"
+                  },
+                  "gr.adjF": {
+                    "type": "keyword"
+                  },
+                  "gr.tr": {
+                    "type": "keyword"
+                  },
+                  "gr.adjType": {
+                    "type": "keyword"
+                  },
+                  "gr.num_deriv": {
+                    "type": "keyword"
+                  },
+                  "gr.prGov": {
+                    "type": "keyword"
+                  },
+                  "gr.adjForm": {
+                    "type": "keyword"
+                  },
+                  "gr.persErg": {
+                    "type": "keyword"
+                  },
+                  "gr.pos": {
+                    "type": "keyword"
+                  },
+                  "gr.mood": {
+                    "type": "keyword"
+                  },
+                  "gr.asp": {
+                    "type": "keyword"
+                  },
+                  "gr.nAn": {
+                    "type": "keyword"
+                  },
+                  "gr.n_deriv": {
+                    "type": "keyword"
+                  },
+                  "gr.vCl": {
+                    "type": "keyword"
+                  },
+                  "gr.num": {
+                    "type": "keyword"
+                  },
+                  "gr.nGend": {
+                    "type": "keyword"
+                  },
+                  "gr.nSfx": {
+                    "type": "keyword"
+                  },
+                  "gr.posChange": {
+                    "type": "keyword"
+                  },
+                  "gr.pers": {
+                    "type": "keyword"
+                  },
+                  "gr.proType": {
+                    "type": "keyword"
+                  },
+                  "gr.persAbs": {
+                    "type": "keyword"
+                  },
+                  "gr.comp": {
+                    "type": "keyword"
+                  },
+                  "gr.num_type": {
+                    "type": "keyword"
+                  },
+                  "gr.rusV": {
+                    "type": "keyword"
+                  },
+                  "gr.add": {
+                    "type": "keyword"
+                  },
+                  "gr.cnv_form": {
+                    "type": "keyword"
+                  },
+                  "gr.tense": {
+                    "type": "keyword"
+                  },
+                  "gr.vSfx": {
+                    "type": "keyword"
+                  }
+                }
+              },
+              "freq": {
+                "type": "integer"
+              },
+              "rank": {
+                "type": "keyword"
+              },
+              "rank_true": {
+                "type": "integer"
+              },
+              "n_sents": {
+                "type": "integer"
+              },
+              "n_docs": {
+                "type": "integer"
+              },
+              "wf_order": {
+                "type": "integer"
+              },
+              "l_order": {
+                "type": "integer"
+              },
+              "w_id": {
+                "type": "integer"
+              }
+            }
+          },
+          "meta": {
+            "properties": {
+              "page": {
+                "type": "text"
+              },
+              "page_kw": {
+                "type": "keyword"
+              },
+              "line": {
+                "type": "text"
+              },
+              "line_kw": {
+                "type": "keyword"
+              }
+            }
+          }
+        }
+      }
+    },
+    "settings": {
+      "analysis": {
+        "analyzer": {
+          "wf_analyzer": {
+            "type": "pattern",
+            "pattern": "[.\n()\\[\\]/]",
+            "lowercase": true
+          },
+          "gloss_analyzer": {
+            "type": "pattern",
+            "pattern": " ",
+            "lowercase": true
+          }
+        }
+      }
+    }
+  },
+  "words": {
+    "mappings": {
+      "lemma": {
+        "properties": {
+          "wf": {
+            "type": "text",
+            "fielddata": true,
+            "analyzer": "wf_analyzer"
+          },
+          "lang": {
+            "type": "byte"
+          },
+          "freq": {
+            "type": "integer"
+          },
+          "rank": {
+            "type": "keyword"
+          },
+          "rank_true": {
+            "type": "integer"
+          },
+          "n_sents": {
+            "type": "integer"
+          },
+          "n_docs": {
+            "type": "integer"
+          },
+          "l_order": {
+            "type": "integer"
+          }
+        }
+      },
+      "word": {
+        "properties": {
+          "wf": {
+            "type": "text",
+            "fielddata": true,
+            "analyzer": "wf_analyzer"
+          },
+          "wf_display": {
+            "type": "text",
+            "index": false
+          },
+          "wtype": {
+            "type": "keyword"
+          },
+          "lang": {
+            "type": "byte"
+          },
+          "sentence_index": {
+            "type": "short"
+          },
+          "sids": {
+            "type": "integer",
+            "index": false
+          },
+          "n_ana": {
+            "type": "byte"
+          },
+          "ana": {
+            "type": "nested",
+            "properties": {
+              "lex": {
+                "type": "text"
+              },
+              "gloss_index": {
+                "type": "text",
+                "analyzer": "gloss_analyzer"
+              },
+              "trans_en": {
+                "type": "text"
+              },
+              "transcription": {
+                "type": "text"
+              },
+              "segment": {
+                "type": "text"
+              },
+              "logogram": {
+                "type": "text"
+              },
+              "gr.conjtype": {
+                "type": "keyword"
+              },
+              "gr.v_form": {
+                "type": "keyword"
+              },
+              "gr.voice": {
+                "type": "keyword"
+              },
+              "gr.dir": {
+                "type": "keyword"
+              },
+              "gr.numIO": {
+                "type": "keyword"
+              },
+              "gr.poss": {
+                "type": "keyword"
+              },
+              "gr.vType": {
+                "type": "keyword"
+              },
+              "gr.case_c": {
+                "type": "keyword"
+              },
+              "gr.v_subcat": {
+                "type": "keyword"
+              },
+              "gr.inflGender": {
+                "type": "keyword"
+              },
+              "gr.stem_alt": {
+                "type": "keyword"
+              },
+              "gr.stress": {
+                "type": "keyword"
+              },
+              "gr.numErg": {
+                "type": "keyword"
+              },
+              "gr.stemAlt": {
+                "type": "keyword"
+              },
+              "gr.vForm": {
+                "type": "keyword"
+              },
+              "gr.numeral": {
+                "type": "keyword"
+              },
+              "gr.attr": {
+                "type": "keyword"
+              },
+              "gr.stemType": {
+                "type": "keyword"
+              },
+              "gr.v_deriv": {
+                "type": "keyword"
+              },
+              "gr.incorp": {
+                "type": "keyword"
+              },
+              "gr.abbr": {
+                "type": "keyword"
+              },
+              "gr.appl": {
+                "type": "keyword"
+              },
+              "gr.attributivizer": {
+                "type": "keyword"
+              },
+              "gr.clitics": {
+                "type": "keyword"
+              },
+              "gr.ptcp_form": {
+                "type": "keyword"
+              },
+              "gr.an": {
+                "type": "keyword"
+              },
+              "gr.additional": {
+                "type": "keyword"
+              },
+              "gr.demType": {
+                "type": "keyword"
+              },
+              "gr.nDef": {
+                "type": "keyword"
+              },
+              "gr.numType": {
+                "type": "keyword"
+              },
+              "gr.case": {
+                "type": "keyword"
+              },
+              "gr.number": {
+                "type": "keyword"
+              },
+              "gr.dyn": {
+                "type": "keyword"
+              },
+              "gr.adj_form": {
+                "type": "keyword"
+              },
+              "gr.gender": {
+                "type": "keyword"
+              },
+              "gr.rel": {
+                "type": "keyword"
+              },
+              "gr.vF": {
+                "type": "keyword"
+              },
+              "gr.nType": {
+                "type": "keyword"
+              },
+              "gr.persIO": {
+                "type": "keyword"
+              },
+              "gr.numAbs": {
+                "type": "keyword"
+              },
+              "gr.g": {
+                "type": "keyword"
+              },
+              "gr.cnvF": {
+                "type": "keyword"
+              },
+              "gr.adjF": {
+                "type": "keyword"
+              },
+              "gr.tr": {
+                "type": "keyword"
+              },
+              "gr.adjType": {
+                "type": "keyword"
+              },
+              "gr.num_deriv": {
+                "type": "keyword"
+              },
+              "gr.prGov": {
+                "type": "keyword"
+              },
+              "gr.adjForm": {
+                "type": "keyword"
+              },
+              "gr.persErg": {
+                "type": "keyword"
+              },
+              "gr.pos": {
+                "type": "keyword"
+              },
+              "gr.mood": {
+                "type": "keyword"
+              },
+              "gr.asp": {
+                "type": "keyword"
+              },
+              "gr.nAn": {
+                "type": "keyword"
+              },
+              "gr.n_deriv": {
+                "type": "keyword"
+              },
+              "gr.vCl": {
+                "type": "keyword"
+              },
+              "gr.num": {
+                "type": "keyword"
+              },
+              "gr.nGend": {
+                "type": "keyword"
+              },
+              "gr.nSfx": {
+                "type": "keyword"
+              },
+              "gr.posChange": {
+                "type": "keyword"
+              },
+              "gr.pers": {
+                "type": "keyword"
+              },
+              "gr.proType": {
+                "type": "keyword"
+              },
+              "gr.persAbs": {
+                "type": "keyword"
+              },
+              "gr.comp": {
+                "type": "keyword"
+              },
+              "gr.num_type": {
+                "type": "keyword"
+              },
+              "gr.rusV": {
+                "type": "keyword"
+              },
+              "gr.add": {
+                "type": "keyword"
+              },
+              "gr.cnv_form": {
+                "type": "keyword"
+              },
+              "gr.tense": {
+                "type": "keyword"
+              },
+              "gr.vSfx": {
+                "type": "keyword"
+              }
+            }
+          },
+          "freq": {
+            "type": "integer"
+          },
+          "rank": {
+            "type": "keyword"
+          },
+          "rank_true": {
+            "type": "integer"
+          },
+          "n_sents": {
+            "type": "integer"
+          },
+          "n_docs": {
+            "type": "integer"
+          },
+          "wf_order": {
+            "type": "integer"
+          },
+          "l_order": {
+            "type": "integer"
+          }
+        },
+        "_parent": {
+          "type": "lemma"
+        }
+      },
+      "word_freq": {
+        "properties": {
+          "w_id": {
+            "type": "integer"
+          },
+          "d_id": {
+            "type": "integer"
+          },
+          "freq": {
+            "type": "integer"
+          },
+          "wf_order": {
+            "type": "integer"
+          },
+          "l_order": {
+            "type": "integer"
+          }
+        },
+        "_parent": {
+          "type": "word"
+        }
+      }
+    },
+    "settings": {
+      "analysis": {
+        "analyzer": {
+          "wf_analyzer": {
+            "type": "pattern",
+            "pattern": "[.\n()\\[\\]/]",
+            "lowercase": true
+          },
+          "gloss_analyzer": {
+            "type": "pattern",
+            "pattern": " ",
+            "lowercase": true
+          }
+        }
+      }
+    }
+  }
+}
