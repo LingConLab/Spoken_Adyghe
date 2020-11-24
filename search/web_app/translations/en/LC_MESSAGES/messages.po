@@ -21,7 +21,7 @@ msgstr ""
 # ********  Please fill in the following strings:  ********
 
 msgid "corpus_title"
-msgstr "Spoken corpus of the dialects of Khakas"
+msgstr "Устный корпус адыгейского языка (темиргоевский диалект)"
 
 # Language names for the dropdown menu in search panel (please add all missing languages that you have in the corpus):
 
@@ -268,7 +268,7 @@ msgid "Вера Сергеевна Мальцева"
 msgstr "Vera Maltseva"
 
 msgid "Если Вы используете данные Корпуса в своём исследовании, воспользуйтесь следующей ссылкой:"
-msgstr "If you use data from the Spoken corpus of the dialects of Khakas in your research, please cite as follows:"
+msgstr "If you use data from the Corpus in your research, please cite as follows:"
 
 msgid "Вера Мальцева, Елена Сокур. Устный корпус диалектов хакасского языка. М.: ИЯз РАН; М.: Международная лаборатория языковой конвергенции, НИУ ВШЭ. (Доступно онлайн по адресу: https://linghub.ru/oral_khakas_corpus/, дата обращения"
 msgstr "Vera Maltseva, Elena Sokur. Spoken corpus of the dialects of Khakas. Moscow: Institute of Linguistics; Moscow: Linguistic Convergence Laboratory, NRU HSE. (Available online at https://linghub.ru/oral_khakas_corpus/, accessed on"

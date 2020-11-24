@@ -104,7 +104,7 @@ app.secret_key = 'kkj6hd)^js7#dFQ'
 sessionData = {}    # session key -> dictionary with the data for current session
 app.config.update(dict(
     LANGUAGES=settings['interface_languages'],
-    BABEL_DEFAULT_LOCALE='en'
+    BABEL_DEFAULT_LOCALE='ru'
 ))
 
 

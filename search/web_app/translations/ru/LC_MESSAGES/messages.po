@@ -22,7 +22,7 @@ msgstr ""
 # ********  Please fill in the following strings:  ********
 
 msgid "corpus_title"
-msgstr "Устный корпус диалектов хакасского языка"
+msgstr "Устный корпус адыгейского языка (темиргоевский диалект)"
 
 # Language names for the dropdown menu in search panel (please add all missing languages that you have in the corpus):
 
