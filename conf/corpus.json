@@ -14,7 +14,6 @@
   "query_timeout": 60,
   "viewable_meta": [
     "filename",
-    "author",
     "title",
     "year_from",
     "year_to",
@@ -31,7 +30,6 @@
   "search_meta": {
     "columns": [
       [
-        {"type": "input_text", "name": "author", "placeholder": "Author"},
         {"type": "input_text", "name": "title", "placeholder": "Title"},
         {"type": "separator"},
         {"type": "input_number", "name": "year_from", "placeholder": "Year: from"},
@@ -39,7 +37,6 @@
       ]
     ],
     "stat_options": [
-      "speakers",
       "year",
       "title"
     ]

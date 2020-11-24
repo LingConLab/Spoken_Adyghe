@@ -132,7 +132,7 @@ def initialize_session():
     sessionData[session['session_id']] = {'page_size': 10,
                                           'page': 1,
                                           'login': False,
-                                          'locale': 'en',
+                                          'locale': 'ru',
                                           'sort': '',
                                           'distance_strict': False,
                                           'last_sent_num': -1,
@@ -157,7 +157,7 @@ def get_session_data(fieldName):
     if fieldName == 'login' and fieldName not in sessionData[session['session_id']]:
         sessionData[session['session_id']]['login'] = False
     elif fieldName == 'locale' and fieldName not in sessionData[session['session_id']]:
-        sessionData[session['session_id']]['locale'] = 'en'
+        sessionData[session['session_id']]['locale'] = 'ru'
     elif fieldName == 'page_size' and fieldName not in sessionData[session['session_id']]:
         sessionData[session['session_id']]['page_size'] = 10
     elif fieldName == 'last_sent_num' and fieldName not in sessionData[session['session_id']]:

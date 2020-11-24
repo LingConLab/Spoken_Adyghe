@@ -21,3 +21,4 @@ lists.txt
 meta.csv
 meta_speakers.json
 corpus/
+search/.htpasswd

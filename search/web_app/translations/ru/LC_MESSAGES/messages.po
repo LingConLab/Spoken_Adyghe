@@ -350,6 +350,9 @@ msgstr "год рождения"
 msgid "metafield_place of birth"
 msgstr "место рождения"
 
+msgid "metafield_place of residence"
+msgstr "место проживания"
+
 msgid "metafield_place_of_recording"
 msgstr "место записи"
 

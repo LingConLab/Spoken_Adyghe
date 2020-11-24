@@ -21,12 +21,6 @@
 									<input type="text" name="{{ option.name|safe }}" id="{{ option.name|safe }}" class="search_input subcorpus_input" form="search_main" placeholder="{{ _('metafield_' + option.name) | capitalize }}" title="{{ _('metafield_' + option.name) | capitalize }}">
 								{% elif option.type == "input_number" %}
 									<input type="number" name="{{ option.name|safe }}" id="{{ option.name|safe }}" class="search_input subcorpus_input" form="search_main" placeholder="{{ _('metafield_' + option.name) | capitalize }}" title="{{ _('metafield_' + option.name) | capitalize }}">
-								{% elif option.name == "place_of_recording" %}
-									<input type="text" name="place_of_recording" id="place_of_recording" class="search_input subcorpus_input" form="search_main" placeholder="Place of recording" title="Place of recording">		
-									<div class="switchable_subcorpus_option" data-name="place_of_recording" data-value="Бутрахты">{{ _('Бутрахты') }}</div>
-									<div class="switchable_subcorpus_option" data-name="place_of_recording" data-value="Казановка">{{ _('Казановка (Аскизский р-н)') }}</div>
-									<div class="switchable_subcorpus_option" data-name="place_of_recording" data-value="Карагай">{{ _('Карагай') }}</div>
-									<div class="switchable_subcorpus_option" data-name="place_of_recording" data-value="Чиланы">{{ _('Чиланы') }}</div>
 								{% elif option.type == "option" %}
 									<div class="switchable_subcorpus_option" data-name="{{ option.name|safe }}" data-value="{{ option.value|safe }}">{{ _(option.text)|safe }}
 									</div>
