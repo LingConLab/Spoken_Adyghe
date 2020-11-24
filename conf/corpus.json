@@ -76,36 +76,6 @@
       "gramm_selection": {
         "columns": [
           [
-            {"type": "header", "value": "Части речи"},
-            {"type": "gramm", "value": "N", "category": "pos", "tooltip": "существительное"},
-            {"type": "gramm", "value": "V", "category": "pos", "tooltip": "глагол"},
-            {"type": "gramm", "value": "A", "category": "pos", "tooltip": "прилагательное"},
-            {"type": "gramm", "value": "ADV", "category": "pos", "tooltip": "наречие"},
-            {"type": "gramm", "value": "NUM", "category": "pos", "tooltip": "числительное"},
-            {"type": "gramm", "value": "POST", "category": "pos", "tooltip": "послелог"},
-            {"type": "gramm", "value": "NPRO", "category": "pos", "tooltip": "местоимение-существительное"},
-            {"type": "gramm", "value": "APRO", "category": "pos", "tooltip": "местоимение-прилагательное"},
-            {"type": "gramm", "value": "PRO", "category": "pos", "tooltip": "другое местоимение"},
-            {"type": "gramm", "value": "NtoV", "category": "posChange", "tooltip": "глагольная морфология<br>на сущ. или прил."},
-            {"type": "gramm", "value": "pred", "category": "posChange", "tooltip": "предикативная форма<br>местоимений"}
-          ],
-          [
-            {"type": "header", "value": "Абс. аргумент"},
-            {"type": "gramm", "value": "1.abs", "category": "persAbs", "tooltip": "1-е лицо"},
-            {"type": "gramm", "value": "2.abs", "category": "persAbs", "tooltip": "2-е лицо"},
-            {"type": "gramm", "value": "rfl.abs", "category": "persAbs", "tooltip": "рефлексив"},
-            {"type": "gramm", "value": "sg.abs", "category": "numAbs", "tooltip": "единственное число"},
-            {"type": "gramm", "value": "pl.abs", "category": "numAbs", "tooltip": "множественное число"},
-            {"type": "header", "value": "Эрг. аргумент"},
-            {"type": "gramm", "value": "1.erg", "category": "persErg", "tooltip": "1-е лицо"},
-            {"type": "gramm", "value": "2.erg", "category": "persErg", "tooltip": "2-е лицо"},
-            {"type": "gramm", "value": "3.erg", "category": "persErg", "tooltip": "3-е лицо"},
-            {"type": "gramm", "value": "rec.erg", "category": "persErg", "tooltip": "реципрок"},
-            {"type": "gramm", "value": "rel.erg", "category": "persErg", "tooltip": "релятивизация"},
-            {"type": "gramm", "value": "sg.erg", "category": "numErg", "tooltip": "единственное число"},
-            {"type": "gramm", "value": "pl.erg", "category": "numErg", "tooltip": "множественное число"}
-          ],
-          [
             {"type": "header", "value": "Косвенный объект"},
             {"type": "gramm", "value": "1.io", "category": "persIO", "tooltip": "1-е лицо"},
             {"type": "gramm", "value": "2.io", "category": "persIO", "tooltip": "2-е лицо"},
@@ -213,6 +183,149 @@
             {"type": "gramm", "value": "ba", "category": "case", "tooltip": "эмфатическая"},
             {"type": "gramm", "value": "cs", "category": "poss", "tooltip": "консекутив (<em>-ти</em>)"},
             {"type": "gramm", "value": "cs2", "category": "poss", "tooltip": "консекутив (<em>-щъ</em>)"}
+          ]
+        ]
+      },
+      "gloss_selection": {
+        "columns": [
+          [
+            {"type": "header", "value": "Части речи"},
+            {"type": "gloss", "value": "N", "category": "pos", "tooltip": "существительное"},
+            {"type": "gloss", "value": "V", "category": "pos", "tooltip": "глагол"},
+            {"type": "gloss", "value": "A", "category": "pos", "tooltip": "прилагательное"},
+            {"type": "gloss", "value": "ADV", "category": "pos", "tooltip": "наречие"},
+            {"type": "gloss", "value": "NUM", "category": "pos", "tooltip": "числительное"},
+            {"type": "gloss", "value": "POST", "category": "pos", "tooltip": "послелог"},
+            {"type": "gloss", "value": "NPRO", "category": "pos", "tooltip": "местоимение-существительное"},
+            {"type": "gloss", "value": "APRO", "category": "pos", "tooltip": "местоимение-прилагательное"},
+            {"type": "gloss", "value": "PRO", "category": "pos", "tooltip": "другое местоимение"},
+            {"type": "gloss", "value": "NtoV", "category": "posChange", "tooltip": "глагольная морфология<br>на сущ. или прил."},
+            {"type": "gloss", "value": "pred", "category": "posChange", "tooltip": "предикативная форма<br>местоимений"}
+          ],
+          [
+            {"type": "header", "value": "Абс. аргумент"},
+            {"type": "gloss", "value": "1.abs", "category": "persAbs", "tooltip": "1-е лицо"},
+            {"type": "gloss", "value": "2.abs", "category": "persAbs", "tooltip": "2-е лицо"},
+            {"type": "gloss", "value": "rfl.abs", "category": "persAbs", "tooltip": "рефлексив"},
+            {"type": "gloss", "value": "sg.abs", "category": "numAbs", "tooltip": "единственное число"},
+            {"type": "gloss", "value": "pl.abs", "category": "numAbs", "tooltip": "множественное число"},
+            {"type": "header", "value": "Эрг. аргумент"},
+            {"type": "gloss", "value": "1.erg", "category": "persErg", "tooltip": "1-е лицо"},
+            {"type": "gloss", "value": "2.erg", "category": "persErg", "tooltip": "2-е лицо"},
+            {"type": "gloss", "value": "3.erg", "category": "persErg", "tooltip": "3-е лицо"},
+            {"type": "gloss", "value": "rec.erg", "category": "persErg", "tooltip": "реципрок"},
+            {"type": "gloss", "value": "rel.erg", "category": "persErg", "tooltip": "релятивизация"},
+            {"type": "gloss", "value": "sg.erg", "category": "numErg", "tooltip": "единственное число"},
+            {"type": "gloss", "value": "pl.erg", "category": "numErg", "tooltip": "множественное число"}
+          ],
+          [
+            {"type": "header", "value": "Косвенный объект"},
+            {"type": "gloss", "value": "1.io", "category": "persIO", "tooltip": "1-е лицо"},
+            {"type": "gloss", "value": "2.io", "category": "persIO", "tooltip": "2-е лицо"},
+            {"type": "gloss", "value": "3.io", "category": "persIO", "tooltip": "3-е лицо"},
+            {"type": "gloss", "value": "rfl.io", "category": "persIO", "tooltip": "рефлексив"},
+            {"type": "gloss", "value": "rec.io", "category": "persIO", "tooltip": "реципрок"},
+            {"type": "gloss", "value": "rel.io", "category": "persIO", "tooltip": "релятивизация"},
+            {"type": "gloss", "value": "sg.io", "category": "numIO", "tooltip": "единственное число"},
+            {"type": "gloss", "value": "pl.io", "category": "numIO", "tooltip": "множественное число"},
+            {"type": "header", "value": "Др. релятивизация"},
+            {"type": "gloss", "value": "rel.sub", "category": "rel", "tooltip": "рел. факта / образа действия"},
+            {"type": "gloss", "value": "rel.tmp", "category": "rel", "tooltip": "рел. времени"},
+            {"type": "separator"},
+            {"type": "gloss", "value": "dir", "category": "dir", "tooltip": "директив"}
+          ],
+          [
+            {"type": "header", "value": "Префиксальная<br>глаг. деривация"},
+            {"type": "gloss", "value": "genloc", "category": "app", "tooltip": "локативный аппликатив (<em>щы-</em>)"},
+            {"type": "gloss", "value": "loc", "category": "app", "tooltip": "др. локативные аппликативы"},
+            {"type": "gloss", "value": "ben", "category": "app", "tooltip": "бенефактивный аппликатив"},
+            {"type": "gloss", "value": "mal", "category": "app", "tooltip": "малефактивный аппликатив"},
+            {"type": "gloss", "value": "com", "category": "app", "tooltip": "комитативный аппликатив"},
+            {"type": "gloss", "value": "trans", "category": "app", "tooltip": "транслативный аппликатив"},
+            {"type": "gloss", "value": "inadv", "category": "app", "tooltip": "инадвертив"},
+            {"type": "gloss", "value": "dat", "category": "app", "tooltip": "дативная деривация"},
+            {"type": "gloss", "value": "caus", "category": "v_deriv", "tooltip": "каузатив"},
+            {"type": "header", "value": "Динамичность/<br>оптатив"},
+            {"type": "gloss", "value": "dyn", "category": "dyn", "tooltip": "динамичность"},
+            {"type": "gloss", "value": "opt", "category": "dyn", "tooltip": "оптатив"}
+          ],
+          [
+            {"type": "header", "value": "Глагольный класс"},
+            {"type": "gloss", "value": "tr", "category": "vType", "tooltip": "переходный"},
+            {"type": "gloss", "value": "intr", "category": "vType", "tooltip": "непереходный"},
+            {"type": "gloss", "value": "dat_v", "category": "vType", "tooltip": "требующий дат. деривации"},
+            {"type": "header", "value": "Чередование <em>э/а</em>"},
+            {"type": "gloss", "value": "alt_stem", "category": "stem_alt", "tooltip": "наличие чередования"},
+            {"type": "gloss", "value": "alt_stem1", "category": "stem_alt", "tooltip": "чередование в 1-м слоге<br>от конца основы"},
+            {"type": "gloss", "value": "alt_stem2", "category": "stem_alt", "tooltip": "чередование во 2-м слоге<br>от конца основы"},
+            {"type": "header", "value": "Инкорпор.<br>глаг. корни"},
+            {"type": "gloss", "value": "ill", "category": "vSfx", "tooltip": "<em>-хьэ-</em>"},
+            {"type": "gloss", "value": "el", "category": "vSfx", "tooltip": "<em>-кӏы-</em>"},
+            {"type": "gloss", "value": "cont", "category": "vSfx", "tooltip": "<em>-лӏэ-</em>"}
+          ],
+          [
+            {"type": "header", "value": "Глагольные<br>окончания и время"},
+            {"type": "gloss", "value": "re", "category": "vSfx", "tooltip": "реверсив/рефактив"},
+            {"type": "gloss", "value": "pot", "category": "vSfx", "tooltip": "потенциалис"},
+            {"type": "gloss", "value": "sim", "category": "v_form", "tooltip": "одновременность"},
+            {"type": "gloss", "value": "pst", "category": "tense", "tooltip": "прошедшее время"},
+            {"type": "gloss", "value": "pst2", "category": "tense", "tooltip": "давнопрошедшее время"},
+            {"type": "gloss", "value": "fut", "category": "tense", "tooltip": "будущее время"},
+            {"type": "gloss", "value": "aux", "category": "tense", "tooltip": "вспомогат. глагол <em>-щты-</em><br>(в сочетаниях)"},
+            {"type": "gloss", "value": "cond", "category": "v_form", "tooltip": "кондиционал"},
+            {"type": "gloss", "value": "mod", "category": "v_form", "tooltip": "модальный суффикс / масдар"},
+            {"type": "gloss", "value": "neg", "category": "v_form", "tooltip": "отрицание"},
+            {"type": "gloss", "value": "neg_ep", "category": "v_form", "tooltip": "отрицание (<em>-эп</em>)"}
+          ],
+          [
+            {"type": "header", "value": "Номинализации"},
+            {"type": "gloss", "value": "nmlz.loc", "category": "posChange", "tooltip": "локативная"},
+            {"type": "gloss", "value": "nmlz", "category": "posChange", "tooltip": "остальные"},
+            {"type": "header", "value": "Посессивность"},
+            {"type": "gloss", "value": "p.1sg", "category": "poss", "tooltip": "1 л. ед. ч."},
+            {"type": "gloss", "value": "p.1pl", "category": "poss", "tooltip": "1 л. мн. ч."},
+            {"type": "gloss", "value": "p.2sg", "category": "poss", "tooltip": "2 л. ед. ч."},
+            {"type": "gloss", "value": "p.2pl", "category": "poss", "tooltip": "2 л. мн. ч."},
+            {"type": "gloss", "value": "p.3sg", "category": "poss", "tooltip": "3 л. ед. ч."},
+            {"type": "gloss", "value": "p.3pl", "category": "poss", "tooltip": "3 л. мн. ч."},
+            {"type": "gloss", "value": "poss", "category": "poss", "tooltip": "префикс отторжимой принадлежности"},
+            {"type": "gloss", "value": "p.rel", "category": "poss", "tooltip": "релятивизация"},
+            {"type": "gloss", "value": "p.rec", "category": "poss", "tooltip": "реципрок"}
+          ],
+          [
+            {"type": "header", "value": "Число сущ."},
+            {"type": "gloss", "value": "sg", "category": "number", "tooltip": "единственное"},
+            {"type": "gloss", "value": "pl", "category": "number", "tooltip": "множественное"},
+            {"type": "gloss", "value": "apl", "category": "number", "tooltip": "ассоциативное множественное"},
+            {"type": "header", "value": "Падеж"},
+            {"type": "gloss", "value": "abs", "category": "case", "tooltip": "абсолютив (именительный)"},
+            {"type": "gloss", "value": "obl", "category": "case", "tooltip": "косвенный (эргатив)"},
+            {"type": "gloss", "value": "ins", "category": "poss", "tooltip": "инструменталис"},
+            {"type": "gloss", "value": "adv", "category": "poss", "tooltip": "адвербиалис"},
+            {"type": "header", "value": "Числительное"},
+            {"type": "gloss", "value": "ord", "category": "numType", "tooltip": "порядковое"},
+            {"type": "gloss", "value": "mult", "category": "numType", "tooltip": "мультипликативное"},
+            {"type": "gloss", "value": "adj", "category": "posChange", "tooltip": "адъективизатор <em>-рэ</em>"}
+          ],
+          [
+            {"type": "header", "value": "Классы сущ.<br>и деривации"},
+            {"type": "gloss", "value": "aug", "category": "nSfx", "tooltip": "аугментатив"},
+            {"type": "gloss", "value": "persn", "category": "nType", "tooltip": "личное имя"},
+            {"type": "gloss", "value": "patrn", "category": "nType", "tooltip": "отчество"},
+            {"type": "gloss", "value": "famn", "category": "nType", "tooltip": "фамилия"},
+            {"type": "gloss", "value": "geo", "category": "nType", "tooltip": "топоним"},
+            {"type": "gloss", "value": "abbr", "category": "abbr", "tooltip": "аббревиатура"},
+            {"type": "separator"},
+            {"type": "gloss", "value": "incorp", "category": "incorp", "tooltip": "инкорпорированный<br>односложный корень"}
+          ],
+          [
+            {"type": "header", "value": "Клитики"},
+            {"type": "gloss", "value": "add", "category": "case", "tooltip": "аддитивная"},
+            {"type": "gloss", "value": "coord", "category": "case", "tooltip": "координативная (<em>-рэ</em>)"},
+            {"type": "gloss", "value": "q", "category": "case", "tooltip": "вопросительная"},
+            {"type": "gloss", "value": "ba", "category": "case", "tooltip": "эмфатическая"},
+            {"type": "gloss", "value": "cs", "category": "poss", "tooltip": "консекутив (<em>-ти</em>)"},
+            {"type": "gloss", "value": "cs2", "category": "poss", "tooltip": "консекутив (<em>-щъ</em>)"}
           ]
         ]
       }
