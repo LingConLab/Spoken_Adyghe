@@ -23,6 +23,9 @@ msgstr ""
 msgid "corpus_title"
 msgstr "Устный корпус адыгейского языка (темиргоевский диалект)"
 
+msgid "corpus_name"
+msgstr "spoken_adyghe"
+
 # Language names for the dropdown menu in search panel (please add all missing languages that you have in the corpus):
 
 msgid "langname_udmurt"

@@ -11,6 +11,7 @@ import uuid
 import math
 import xlsxwriter
 import time
+from flask_basicauth import BasicAuth
 from search_engine.client import SearchClient
 from .response_processors import SentenceViewer
 from .transliteration import *
@@ -101,6 +102,10 @@ def nocache(view):
 
 app = Flask(__name__)
 app.secret_key = 'kkj6hd)^js7#dFQ'
+app.config['BASIC_AUTH_USERNAME'] = 'rokugava'
+app.config['BASIC_AUTH_PASSWORD'] = open('.htpasswd', 'r').read().strip()
+
+basic_auth = BasicAuth(app)
 sessionData = {}    # session key -> dictionary with the data for current session
 app.config.update(dict(
     LANGUAGES=settings['interface_languages'],
@@ -381,6 +386,7 @@ def start_page():
     
 
 @app.route('/search')
+@basic_auth.required
 def search_page():
     """
     Return HTML of the search page (the main page of the corpus).
